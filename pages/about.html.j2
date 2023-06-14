@@ -1,0 +1,48 @@
+---
+title: About Uncle Uncool
+---
+{% extends "layouts/body.html.j2" %}
+{% block content %}
+{% import "layouts/filters.html.j2" as f %}
+{{ super() }}
+<h3>
+  The domain
+</h3>
+<p>
+  I am a member of {{f.linkTo('ARC',"http://www.arcair.com/")}},
+  where my user name is zeus60.
+  There was another member whose user name was Uncle Uncool. I was so impressed
+  by his moniker that I asked him if he had a web site, and, if not, if he would
+  mind if I used his user name as a domain name. He did not have a web site and was gracious enough
+  to let me use the name. Since I am an uncle, and not a dad, and am very uncool,
+  I thought it fitting.
+</p>
+<h3>
+  The web site
+</h3>
+<p>
+  This is a static web site, created with {{f.linkTo('goss',"https://github.com/brothertoad/goss")}},
+  a static site generation I wrote using {{f.linkTo('golang',"https://go.dev/")}}.
+  The source code for this site is available on
+  {{f.linkTo('github',"https://github.com/brothertoad/uncle-goss")}}.
+  The web pages themselves are hosted on
+  {{f.linkTo("Google's Firebase",'https://firebase.google.com')}},
+  the images are hosted on
+  {{f.linkTo('Amazon S3','https://aws.amazon.com/s3/')}},
+  and the email is handled by
+  {{f.linkTo('Zoho Mail','https://www.zoho.com/mail/')}}.
+  Goss uses {{f.linkTo('gonja',"https://github.com/noirbizarre/gonja")}} templates.
+  Gonja is an implementation of the
+  {{f.linkTo('jinja2',"https://jinja.palletsprojects.com/en/3.1.x/")}} template engine,
+  written in golang.
+  The stylesheets are written in {{f.linkTo('Sass','https://sass-lang.com/')}}.
+</p>
+<p>
+  This site was originally created using
+  {{f.linkTo('Middleman','https://middlemanapp.com/')}}.  It was migrated
+  to {{f.linkTo("Metalsmith","https://metalsmith.io/")}}
+  in June 2020 and then migrated to goss in June 2023.
+<p>
+  You can contact me at uncleATuncleuncoolDOTnet.
+</p>
+{% endblock %}

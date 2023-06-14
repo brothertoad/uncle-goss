@@ -1,0 +1,6 @@
+<div>
+  {% include "layouts/partials/navbar.html.j2" %}
+  <header>
+    <h1 class="banner">{% if banner %}{{ banner }}{% else %}{{ title }}{% endif %}</h1>
+  </header>
+</div>

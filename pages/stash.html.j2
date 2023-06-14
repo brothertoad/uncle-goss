@@ -1,0 +1,31 @@
+---
+title: "Uncle Uncool: The Stash"
+banner: The Stash
+---
+{% extends "layouts/body.html.j2" %}
+{% block content %}
+{{ super() }}
+<p>
+  Like many modelers, I've built up quite a collection of unbuilt kits
+  (known as 'the stash' to those in the hobby). Here are some pictures I took
+  in April 2021. This is not the entire stash, but it is most of it.  I counted
+  it and I have roughly 550 kits, and this doesn't count the 140 I've picked out
+  to sell.
+</p>
+{%- macro buildPhoto(prefix) -%}
+{% set target = "https://d1dems3vhrlf9r.cloudfront.net/images/stash-2021-04-10/" ~ prefix ~ "-1000.jpg" %}
+<img src="{{ target }}" class="build-photo">
+{%- endmacro -%}
+{% for image in [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 ] %}
+  <p>
+    {% set two = (image < 10) %}
+    {% if two %}
+      {% set prefix = "00" ~ image %}
+      {{ buildPhoto(prefix) }}
+    {% else %}
+      {% set prefix = "0" ~ image %}
+      {{ buildPhoto(prefix) }}
+    {% endif %}
+  </p>
+{% endfor %}
+{% endblock %}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ title }}</title>
+    <meta content='IE=edge' http-equiv='X-UA-Compatible'>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width,initial-scale=1'>
+    <meta name="google-site-verification" content="zSReOHxI4c6NsC91Xw81gB0fX0PJjORuDTKWzuJ7_Bw">
+    <link href="https://fonts.googleapis.com/css?family=Cherry+Cream+Soda%7cOpen+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif%7cMerriweather+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="/css/site.css">
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+  </head>
+  <body>
+    <div class="main-content">
+      {% block content %}{% endblock %}
+      <p class="tc">
+        Page last updated {{ lastModified }}.
+      </p>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,35 @@
+---
+title: IPMS Dayton Tamiya Mixes
+---
+{% extends "layouts/body.html.j2" %}
+{% block content %}
+{% import "layouts/filters.html.j2" as f %}
+{{ super() }}
+<div class="noprint">
+  <p>
+    This page contains a set of mixes using Tamiya paint.  It was originally posted on
+    {{f.linkTo('the IPMS Dayton web site','https://www.ipmsdayton.com/')}} at
+    http://www.ipmsdayton.com/sites/default/files/Tamiya_Mixes.txt,
+    but as of this writing (January 2022) you get a Forbidden message if you go there.
+    I found a copy on
+    {{f.linkTo("Old Sarge's blog",'https://oldsargesaircraft.blogspot.com/2019/12/ipms-dayton-tamiya-mixes.html')}}.
+    I decided to post the contents here.  I have fixed a few typos, cleaned up the formatting
+    a bit and also made the FS numbers into actual links.
+  </p>
+  <p>
+    Unfortunately, I do not know who the originator of this page was or why it is no longer
+    accessible from the IPMS Dayton site.  If anyone has any information about this, or if
+    the owner of this info does not wish me to duplicate it here, please contact me at
+    uncleATuncleuncoolDOTnet.
+  </p>
+  <p>
+    I have created two PDF's of this information that you can download.  After all, this site
+    won't be around forever.  I've also provided the original raw text version.
+    <br>{{f.linkTo('US letter formatted','/docs/IPMS-Dayton-Tamiya-mixes-US-letter.pdf')}}
+    <br>{{f.linkTo('A4 formatted','/docs/IPMS-Dayton-Tamiya-mixes-A4.pdf')}}
+    <br>{{f.linkTo('Original text version','/docs/IPMS-Dayton-Tamiya-mixes.txt')}}
+  </p>
+</div>
+
+{% include "include/dayton-mixes.html" %}
+{% endblock %}
