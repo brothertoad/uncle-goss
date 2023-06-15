@@ -1,0 +1,17 @@
+---
+kit: ACA2129
+---
+{% extends "layouts/build.html.j2" %}
+{% block content %}
+{% import "layouts/macros.html.j2" as m %}
+{% import "layouts/filters.html.j2" as f %}
+{{ super() }}
+
+<p>
+	Like the {{f.linkTo('previous build','../0101/')}}, a Zero, this one was
+	pretty crappy, although not as bad as the Zero.  I'm sure I tossed this kit at some point.
+</p>
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}
+{% endblock %}

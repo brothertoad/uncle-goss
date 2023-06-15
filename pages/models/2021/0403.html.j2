@@ -1,0 +1,29 @@
+---
+kit: TAM35250
+---
+{% extends "layouts/build.html.j2" %}
+{% block content %}
+{% import "layouts/macros.html.j2" as m %}
+{% import "layouts/filters.html.j2" as f %}
+{{ super() }}
+
+<p>
+  This is the third time I've tried to build this kit.  The first two times ended
+  up FUBAR, although I can't remember exactly what went wrong.
+</p>
+<p>
+  The only part of the assembly that gave me any trouble was the spare tracks
+  on the rear.  That may have been the issue that FUBARed one of my previous attempts.
+  The paint was a mixture of Tamiya {{f.txf('62')}} Olive Drab, {{f.txf('60')}}
+  Dark Yellow and {{f.txf('57')}} Buff.
+</p>
+<p>
+  I chose the kit option with the fewest decals - there are only five, two on each
+  side and a small one on the ammo box attached to the machine gun on the turret.
+  I weathered it with a wash, which was much heavier on the top than I had
+  intended.  I decided not to add any accessories.
+</p>
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}
+{% endblock %}

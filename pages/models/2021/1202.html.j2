@@ -1,0 +1,47 @@
+---
+kit: TAM60201
+---
+{% extends "layouts/build.html.j2" %}
+{% block content %}
+{% import "layouts/macros.html.j2" as m %}
+{% import "layouts/filters.html.j2" as f %}
+{{ super() }}
+
+<p>
+  As I mentioned in {{f.linkTo('my last build','../1201/')}},
+  my modeling mojo has been low for a while.  I've had
+  a couple of the old Tamiya dinosaur kits in the stash, and I figured something like
+  that might help me get out of the doldrums.  It definitely helped!
+</p>
+<p>
+  This was one of Tamiya's first dinosaur kits, and it does not go together like
+  a modern Tamiya kit.  The diorama kit of this subject has new molds.  I had to
+  fill in several gaps.  I used epoxy, and that worked okay.  I wanted to
+  avoid sanding, so I used a cotton swab to wipe away the excess epoxy before it set.
+</p>
+<p>
+  Not surprisingly, there aren't any photographs of actual living dinosaurs.  The
+  Triceratops reminds me of a rhinoceros (although the Triceratops was a
+  reptile and the rhino is a mammal), so I went with a gray scheme.  I primed with
+  Ace Hardware white primer from a rattle can.  I found that as I sprayed the top
+  coats, the primer absorbed the paint, so I won't be using that again.  The belly
+  was painted with Tamiya {{f.txf('19')}} Sky Grey, which was actually a bit lighter
+  than I was going for.  I then sprayed the sides and the top with {{f.txf('75')}}
+  IJN Gray (Kure arsenal), and the very top was painted my mix for {{f.rlm('74')}},
+  which is {{f.txf('24')}} Dark Grey with some {{f.txf('27')}} Black Green.
+</p>
+<p>
+  The horns were handpainted a mix of White and Golden Sunset, both from the Apple
+  Barrel line.  I was very pleased with how it turned out - it was just the shade
+  of yellowish white that I was aiming at.  The eyes were painted Jo Sonja
+  Naples Yellow Hue, with Vallejo Model Color Black for the centers.
+</p>
+<p>
+  After painting was complete, the kit was given a coat of Future, then a wash of
+  Vallejo Model Color Black Grey in a bit of soapy water.  It flowed well, but didn't
+  make the animal look as dirty as I'd hoped.  I then gave it a flat coat, and it was
+  done.  Two nice things about dinosaurs: no decals and no canopy to mask!
+</p>
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{% endblock %}

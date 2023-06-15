@@ -1,0 +1,48 @@
+---
+kit: TAM97103
+---
+{% extends "layouts/build.html.j2" %}
+{% block content %}
+{% import "layouts/macros.html.j2" as m %}
+{% import "layouts/filters.html.j2" as f %}
+{{ super() }}
+
+<p>
+	This is the second time I've build the Tamiya 1/72 Jack.
+	As with several of my previous models, I wanted to try some new
+	techniques, and I figured a cheap kit like this one would fit the bill.
+	I think it cost me about $6.
+</p>
+<p>
+	I started with Krylon White Primer, but the can clogged, so I switched
+	to Duplicolor White Primer.  Both worked reasonably well, but the Krylon sprayed
+	a bit better.  The underside was Floquil CN Gray #17 (F110252).  This is a
+	railroad color, but matched IJN Gray rather well.  The top was Model Master
+	Enamel Euro Dark Green (FS34092).  It was not as dark as I hoped, but looked
+	a little better after the clear coats were on.  The anti-glare panel was
+	Floquil Engine Black.  I thinned all both of these with regular paint thinner.
+</p>
+<p>
+	The cockpit was Tamiya {{f.txf('5')}} Flat Green, which was too dark.  The yellow on
+	the winge edge was Tamiya {{f.txf('3')}} Flat Yellow, which matched the yellow lightning
+	bolts rather well.  The engine and fan were Tamiya {{f.txf('56')}} Metallic Gray, and
+	the prop was {{f.mrcolor('131')}} Propellor Color.  The bombs were Tamiya {{f.txf('1')}} Flat
+	Black.  The guns were Tamiya {{f.tx('10')}} Gun Metal, and the landing gear were {{f.mrcolor('8')}}
+	Silver.  The tires were Polly Scale Grimy Black.  For the wheels, I used
+	Liquitex Soft Body Black.
+</p>
+<p>
+	I masked the canopy by hand, in one step.  I used a technique I ready about
+	on ARC.  I put a piece of foil on the workbench, which reflected the light
+	up.  That made it much easier to see the frames.  It wasn't perfect, but I
+	will definitely use the same technique in the future.
+</p>
+<p>
+	Decals are from the kit.  I used Microset under them, but I did not need
+	any solvent on top.  As always, I used rather hot water, and I think that
+	helps make the decal lay down better.
+</p>
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}
+{% endblock %}

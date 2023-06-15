@@ -1,0 +1,36 @@
+---
+kit: TAM61037
+---
+{% extends "layouts/build.html.j2" %}
+{% block content %}
+{% import "layouts/macros.html.j2" as m %}
+{% import "layouts/filters.html.j2" as f %}
+{{ super() }}
+
+<p>
+  When going through my decal stash, I came across the set of
+  {{f.linkTo('TigerHead decals','http://www.tigerheaddecals.com/')}} (48008)
+  that I had used for {{f.linkTo('one of my Tamiya Spitfires','../../2016/0301/')}}
+  and saw that it included a Focke-Wulf Fw 190A-3.  I picked up another Tamiya
+  kit to use those decals.
+</p>
+<p>
+  There's nothing much to say about the build - typical Tamiya ease of construction.
+  It helps that I've built several of the Tamiya Focke-Wulfs.  I was even able to attach
+  the landing gear arms without too much trouble, an area that usually gives me
+  problems.  The decal instructions specified {{f.rlm('65')}} for the bottom
+  and {{f.rlm('02/71')}} for the top.  I'm not quite sure if these are correct,
+  as 190's are usually in {{f.nowrap('74/75')}} over 76, but I followed the
+  instructions.  I used {{f.txf('23')}} Light Blue for the {{f.rlm('65')}},
+  {{f.txf('61')}} Dark Green for the {{f.rlm('71')}}, and my mixture for the
+  {{f.rlm('02')}}.  The {{f.txf('61')}} is probably a bit too dark for
+  {{f.rlm('71')}}, but I figured it was close enough.
+</p>
+<p>
+  The decals went on easily with Microscale solutions.  I was pleased with the fact
+  that there were only six of them, as I'll admit I don't like decaling much.
+</p>
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}
+{% endblock %}

@@ -1,0 +1,37 @@
+---
+kit: ITAL2719
+---
+{% extends "layouts/build.html.j2" %}
+{% block content %}
+{% import "layouts/macros.html.j2" as m %}
+{% import "layouts/filters.html.j2" as f %}
+{{ super() }}
+
+<p>
+  My first build of the new year.  This is actually the Academy plastic, reboxed
+  by Italeri with a large decal sheet of Italian pilots.  Even before starting, I
+  decided to save the decals for another G-6, probably the Eduard kit, as I have
+  three of those in the stash.
+</p>
+<p>
+  The kit went together quite well, with nothing noteworthy that I remember.  The
+  exterior is {{f.mrcolor('117')}} RLM76 Light Blue for the bottom, and
+  {{f.mrhobbycolor('69')}} RLM75 Gray and {{f.mrhobbycolor('68')}} RLM74 Gray
+  Green on the top.  The fuselage band was Tamiya {{f.txf('8')}} Flat Blue, which
+  is actually a bit too dark.
+</p>
+<p>
+  The decals came from Eagle Editions 40.  I wanted a plane with the cannon under
+  the wings, so I went with yellow 9.  I didn't have the stencils, so those are
+  missing, including missing from the drop tank, where they are rather
+  conspicuous.
+</p>
+<p>
+  Once again, I had trouble attaching the canopy after everything else was
+  complete.  There are some noticeable gaps, although they aren't particularly
+  visible in the photos.  I used the Eduard mask EX145 to mask the canopy.
+</p>
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}
+{% endblock %}

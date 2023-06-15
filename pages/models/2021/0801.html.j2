@@ -1,0 +1,41 @@
+---
+kit: HC1522
+---
+{% extends "layouts/build.html.j2" %}
+{% block content %}
+{% import "layouts/macros.html.j2" as m %}
+{% import "layouts/filters.html.j2" as f %}
+{{ super() }}
+
+<p>
+  Here is my second Hobbycraft 109.  I can't believe it has been almost five years
+  since my {{f.linkTo('first one','../../2016/0901/')}}.
+  I wanted to do a kit in non-German markings, and this one has a couple of options.
+  I chose the Croatian (I think) option, from Italy in 1945.
+</p>
+<p>
+  Assembly was pretty straightforward.  The instructions called out for {{f.rlm('82')}}
+  and {{f.rlm('83')}} on the top, with {{f.rlm('76')}} on the bottom.  I found a web
+  page (I think it was
+  {{f.linkTo('this one','http://www.modelersite.com/Oct2010/English/Bf109G_Eng.htm')}})
+  that showed a photograph of this plane, and also
+  indicated that it was {{f.rlm('81')}} and {{f.rlm('82')}} on the top, so that is
+  what I used.  I primed with my mixture of artists acrylic paint and Future, and painted
+  with Vallejo Model Air.  Interestingly, the bottle of {{f.rlm('82')}} is labelled
+  Light Green, but it is darker than the {{f.rlm('83')}} in the same paint line.
+  The {{f.rlm('04')}} is Tamiya {{f.txf('3')}} Flat Yellow.
+</p>
+<p>
+  The spinner was painted AMMO by Mig 047 Satin White.  I was going to try to paint
+  the spiral, but chickened out.  I found a set of decals from a Hasegawa
+  {{f.nowrap('Bf 109G-6')}} that had a suitable decal, so I used it.  The actual
+  plane had a black spiral on a white background, so the decal was correct in that
+  respect.  The other decals came from the kit, and worked well.  There were no
+  stencils in the kit decals - at least, not in my kit - but I'm not complaining,
+  as I don't like applying stencils.  The canopy was masked with a mask from
+  {{f.linkTo('EZ Masks','http://www.ezmasks.com')}}.
+</p>
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}
+{% endblock %}

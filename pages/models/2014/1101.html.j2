@@ -1,0 +1,33 @@
+---
+kit: ACA1670
+---
+{% extends "layouts/build.html.j2" %}
+{% block content %}
+{% import "layouts/macros.html.j2" as m %}
+{% import "layouts/filters.html.j2" as f %}
+{{ super() }}
+
+<p>
+	This kit was built because I wanted to build something quick. It didn't turn out
+	to be that quick, but that was because the paint job was something complex.
+	This kit also made me realize that 1/72 is not my scale, and I'm in the process
+	of selling most of my 1/72 stash.
+</p>
+<p>
+	There really isn't much to say about this kit. It went together quite well - I
+	don't recall any fit issues. I primed with {{f.nowrap('Mr. Surfacer')}} 1200. The {{f.rlm('76')}} on the
+	bottom is Model Master enamel, as is the {{f.rlm('75')}} on the top. The {{f.rlm('74')}} is
+	White Ensign enamel. The propellor blades are Floquil Brunswick Green, and I
+	used Floquil Reefer Yellow for the {{f.rlm('04')}}. The exhaust is {{f.mrcolor('61')}} Burnt Iron,
+	which I really didn't like. The Testor Metalizer is better.
+</p>
+<p>
+	Knowing Academy decals, I used the decals from the Airfix A02029A kit. I didn't
+	bother to apply the stencils, since they aren't noticeable at this scale.
+	The spinner is supposed to have a thin black spiral, but I could not apply
+	the decal with any degree of accuracy, so I left it off.
+</p>
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}
+{% endblock %}

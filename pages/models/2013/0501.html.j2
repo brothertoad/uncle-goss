@@ -1,0 +1,33 @@
+---
+kit: HAS501
+---
+{% extends "layouts/build.html.j2" %}
+{% block content %}
+{% import "layouts/macros.html.j2" as m %}
+{% import "layouts/filters.html.j2" as f %}
+{{ super() }}
+
+<p>
+	This is the Hasegawa 1/72 Oscar.  I was not pleased with how this kit
+	turned out.  It went together well, but my paint job was pretty bad.
+</p>
+<p>
+	I used Tamiya {{f.txf('71')}} Cockpit Green for the cockpit.  I realized the moment I
+	sprayed it that it was a Mitsubishi cockpit color, not a Nakajima cockpit color.
+	The main frame was primed with Tamiya {{f.tx('1')}} Black.  I masked the antiglare panel and the
+	walkway markings on the wings, then sprayed Floquil Bright Silver.  It turned out
+	poor - much worse than it looks in the photos.  I used Floquil Gun Metal for the
+	wheel wells and the inside of the cowling.  It did not have enough of a blue tint.
+	On the plus side, the Floquil Reefer Yellow on the wing edges turned out well.
+	I sprayed it after I painted the rest of the plane.
+</p>
+<p>
+	I used the kit decals.  The canopy was masked by hand.  After the decals were
+	on, and I had taken a few photos, I realized that I forgot the green mottling.
+	I thinned some Tamiya {{f.txf('13')}} JA Green and applied it with a microbrush.  The
+	results were not impressive.
+</p>
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}
+{% endblock %}

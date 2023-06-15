@@ -1,0 +1,35 @@
+---
+kit: TAM61047
+---
+{% extends "layouts/build.html.j2" %}
+{% block content %}
+{% import "layouts/macros.html.j2" as m %}
+{% import "layouts/filters.html.j2" as f %}
+{{ super() }}
+
+<p>
+  As with {{f.linkTo('my previous build','../0802/')}}, this is
+  the second time I've built this kit, but this has a different paint scheme than
+  {{f.linkTo('the first build','../../2020/0303/')}}.
+  I found the NMF option in the kit quite striking, and after my luck with
+  {{f.linkTo('the Hasegawa P-47D','../0601/')}}, I decided to try
+  the same technique.
+</p>
+<p>
+  That being said, I don't think the NMF turned out quite as well as on
+  the P-47D.  In particular, some of the AMMO Flat Aluminum came off with the
+  masking tape when I was painting the yellow on the wing edges and the anti-glare
+  panel.  Some of the masking tape I used was regular, home-improvement type masking
+  tape, and that may have been the problem.
+</p>
+<p>
+  I used Tamiya Mark Fit on some of the decals, and Mr. Mark Setter on others.
+  I had to use several applications of Solvaset on the roundels on the wing tops,
+  due to the fact that there is a large hinge under each one.  The windscreen and
+  the side windows at the back all went on easily, but I had to sand the canopy
+  to get it to fit.  Once I did, I found that I did not have to glue it.
+</p>
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}
+{% endblock %}

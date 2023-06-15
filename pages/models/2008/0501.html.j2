@@ -1,0 +1,18 @@
+---
+kit: HASJ001
+---
+{% extends "layouts/build.html.j2" %}
+{% block content %}
+{% import "layouts/macros.html.j2" as m %}
+{% import "layouts/filters.html.j2" as f %}
+{{ super() }}
+
+<p>
+	An undocumented build.  The paints are probably Model Master Enamel.
+	I obviously had to touch up the {{f.rlm('65')}} just in front of the tail
+	section, as it is noticeably darker there.
+</p>
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}
+{% endblock %}

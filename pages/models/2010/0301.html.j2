@@ -1,0 +1,21 @@
+---
+kit: OT204
+---
+{% extends "layouts/build.html.j2" %}
+{% block content %}
+{% import "layouts/macros.html.j2" as m %}
+{% import "layouts/filters.html.j2" as f %}
+{{ super() }}
+
+<p>
+    This was an undocumented build.  This one really didn't turn out too bad.
+    Although I have no record, I'm guessing the top is Model Master Enamel
+    IJN Green and the yellow is Floquil Reefer Yellow.
+</p>
+<p>
+    Note that the boxart shown is from the Arii boxing of the same kit.
+</p>
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}
+{% endblock %}

@@ -1,0 +1,20 @@
+---
+kit: TAM61039
+---
+{% extends "layouts/build.html.j2" %}
+{% block content %}
+{% import "layouts/macros.html.j2" as m %}
+{% import "layouts/filters.html.j2" as f %}
+{{ super() }}
+
+<p>
+    This is Tamiya's Focke-Wulf Fw 190F-8, kit 61039.
+</p>
+<p>
+    This was a build that I didn't document, so I'm really not sure which paints
+    I used.  I wish I had made notes - the mottling turned out well on this one.
+</p>
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}
+{% endblock %}

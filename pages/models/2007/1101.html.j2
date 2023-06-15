@@ -1,0 +1,17 @@
+---
+kit: OT214
+---
+{% extends "layouts/build.html.j2" %}
+{% block content %}
+{% import "layouts/macros.html.j2" as m %}
+{% import "layouts/filters.html.j2" as f %}
+{{ super() }}
+
+<p>
+	Another build that I did not document.  The NMF is a little dull, but otherwise
+	OK.  The decals seem to have gone on pretty well (by my standards).
+</p>
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}
+{% endblock %}

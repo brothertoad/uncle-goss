@@ -1,0 +1,34 @@
+---
+kit: ACA2213
+---
+{% extends "layouts/build.html.j2" %}
+{% block content %}
+{% import "layouts/macros.html.j2" as m %}
+{% import "layouts/filters.html.j2" as f %}
+{{ super() }}
+
+<p>
+  Here is the Academy 1/72 Focke-Wulf Fw 190A-8, kit number 2213.  The kit also
+  includes the K&uuml;belwagen, but I have not built that yet.
+</p>
+<p>
+  I built this kit to try out {{f.nowrap('Mr. Surfacer')}} as a primer for a camouflaged airplane.  It worked very
+  well.  As it happens, the kit was missing a sprue, so I used some left-over parts from a previous
+  build.  There is no cockpit, but I think everything else is there.  The drop tank was quite a bit
+  too small for the bracket that holds it.
+</p>
+<p>
+  The canopy was masked by hand.  I used Eagle Strike 72053 Focke-Wulf Fw 190.  According to the
+  decal instruction sheet, this plane was flown by Kurt Petzsch as part of 7II./JG26.
+  The colors are {{f.rlm('75/82')}} over {{f.rlm('76')}}.  I used {{f.nowrap('Mr. Color')}} for
+  the 76 and 75, and Tamiya {{f.txf('26')}} Deep Green
+  for the 82.  The yellow was Floquil Reefer Yellow, which I think is a close match for {{f.rlm('04')}}.
+  The exhaust panels are a bit too long - they should not extend back quite as far as I made
+  them.  Other than that, I thought the colors came out well.  This particular plane did not have much
+  mottling, so I didn't put much on.  The work numbers on the fin came off while I was
+  spraying a second gloss coat.
+</p>
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}
+{% endblock %}

@@ -1,0 +1,38 @@
+---
+kit: HAS64721
+---
+{% extends "layouts/build.html.j2" %}
+{% block content %}
+{% import "layouts/macros.html.j2" as m %}
+{% import "layouts/filters.html.j2" as f %}
+{{ super() }}
+
+<p>
+  Another kit that was started some months ago, and then sat on the shelf.  Like
+  {{f.linkTo('the N1J2-K','../1202')}}, this one was pretty much ready for
+  painting when I resumed work on it.
+</p>
+<p>
+  Unlike the N1J2-K, the only solvent-based paint I used was Mr. Base White 1000 for
+  the initial priming.  The yellow on the leading edge of the wing was AMMO 0125 Gold Yellow
+  {{f.rlm('04')}}.  After spraying that, I masked it and applied Auto Bourne Sealer White over
+  the overspray and as a background for the hinomarus.  The hinomarus were masked, and then
+  I sprayed Vallejo Metal Color Aluminum 77.701 as the NMF.  I thought I had used this
+  before, but could not find a reference to it.  It did not spray that well.  If I use it
+  again in the future, I will probably add some flow improver to it (assuming I remember
+  to do so).  The anti-glare panel and the tail were painted Tamiya {{f.txf('1')}}
+  Flat Black.
+</p>
+<p>
+  Quick Shine was again used as a gloss coat and a decal setting solution.  I was
+  pleased with how the decals went on.  The yellow on the propellor blades was
+  the AMMO Gold Yellow, hand-painted.  It was much easier than applying decals, and
+  looks okay if you don't get too close!
+</p>
+<p>
+  I must admit, I like the look of these fantasy planes.
+</p>
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}
+{% endblock %}
