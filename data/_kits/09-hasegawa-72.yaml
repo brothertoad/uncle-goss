@@ -1,0 +1,58 @@
+### == Hasegawa 1/72 kits
+
+HAS00372:
+    brand: Hasegawa
+    number: '00372'
+    name: "P-40E Warhawk 'Aleutian Tiger'"
+    scale: '1/72'
+    boxart: '72/Hasegawa/00372-800.jpg'
+    scalematesId: 'hasegawa-00372-p-40e-warhawk-aleutian-tiger--264620'
+
+HAS00621:
+    brand: Hasegawa
+    number: '00621'
+    name: "Kawasaki Ki61-I Tei Hien '18th Flight Training Unit'"
+    scale: '1/72'
+    boxart: '72/Hasegawa/00621-800.jpg'
+    scalematesId: 'hasegawa-00621-kawasaki-ki61-i-tei-hien-18th-flight-training-unit--1108715'
+
+HAS501:
+    brand: Hasegawa
+    number: '501'
+    name: 'Nakajima Ki-43-II Hayabusa (Oscar)'
+    scale: '1/72'
+    boxart: '72/Hasegawa/501-800.jpg'
+    scalematesId: 'hasegawa-501-nakajima-ki-43-ii-hayabusa-oscar--172620'
+
+HAS507:
+    brand: Hasegawa
+    number: '507'
+    name: 'Republic P-47D Razorback'
+    scale: '1/72'
+    boxart: '72/Hasegawa/507-800.jpg'
+    scalematesId: 'hasegawa-507-500-republic-p-47-d--431001'
+
+HAS51631:
+    brand: Hasegawa
+    number: '51631'
+    name: 'Nakajima Ki-44-II Shoki (Tojo)'
+    scale: '1/72'
+    boxart: '72/Hasegawa/51631-800.jpg'
+    scalematesId: 'hasegawa-51631-nakajima-ki-44-ii-shoki-tojo--177724'
+
+HASB008:
+    brand: Hasegawa
+    number: 'B008'
+    name: 'Republic P-47D Thunderbolt'
+    scale: '1/72'
+    boxart: 'None'
+    scalematesId: 'hasegawa-b8-republic-p-47d-thunderbolt--211087'
+
+HASA8:
+    brand: Hasegawa
+    number: 'A8 (JS094)'
+    name: 'Republic P-47D Thunderbolt'
+    scale: '1/72'
+    boxart: 'None'
+    scalematesId: 'hasegawa-a8-republic-p-47d-thunderbolt--257481'
+

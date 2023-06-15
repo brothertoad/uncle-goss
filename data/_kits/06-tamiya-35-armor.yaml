@@ -1,0 +1,106 @@
+### == Tamiya 1/35
+
+TAM35009:
+    brand: Tamiya
+    number: '35009'
+    name: 'Panzer Kampfwagen II Ausf. F/G'
+    scale: '1/35'
+    boxart: '35/Tamiya/35009-800.jpg'
+    scalematesId: 'tamiya-35009-panzerkampfwagen-ii-ausf-f-g--1166601'
+
+TAM35055:
+    brand: Tamiya
+    number: '35055'
+    name: 'U.S. Tank M41 Walker Bulldog'
+    scale: '1/35'
+    boxart: '35/Tamiya/35055-800.jpg'
+    scalematesId: 'tamiya-35055-m41--1231793'
+
+TAM35072:
+    brand: Tamiya
+    number: '35072'
+    name: 'Russian Tank Destroyer SU-85'
+    scale: '1/35'
+    boxart: '35/Tamiya/35072-800.png'  # note png, not jpg
+    scalematesId: 'tamiya-mm72-tank-destroyer-su-85--132522'
+
+TAM35142:
+    brand: Tamiya
+    number: '35142'
+    name: 'KV-1B Russian Tank'
+    scale: '1/35'
+    boxart: '35/Tamiya/35142-800.jpg'
+    scalematesId: 'tamiya-35142-kv-1b--132575'
+
+TAM35149:
+    brand: Tamiya
+    number: '35149'
+    name: 'Russian T34/76 Tank, "ChTZ" Version, 1943 Production'
+    scale: '1/35'
+    boxart: '35/Tamiya/35149-800.jpg'
+    scalematesId: 'tamiya-35149-t34-76--132582'
+
+TAM35170:
+    brand: Tamiya
+    number: '35170'
+    name: 'German Panther Type G Early Version'
+    scale: '1/35'
+    boxart: '35/Tamiya/35170-800.jpg'
+    scalematesId: 'tamiya-35170-panther-type-g--132718'
+
+TAM35174:
+    brand: Tamiya
+    number: '35174'
+    name: 'German Panther Type G Steel Wheel Version'
+    scale: '1/35'
+    boxart: '35/Tamiya/35174-800.jpg'
+    scalematesId: 'tamiya-35174-panther-type-g--103425'
+
+TAM35250:
+    brand: Tamiya
+    number: '35250'
+    name: 'M4A3 Sherman 75mm Gun'
+    scale: '1/35'
+    boxart: '35/Tamiya/35250-800.jpg'
+    scalematesId: 'tamiya-35250-m4a3-sherman--103079'
+
+TAM35251:
+    brand: Tamiya
+    number: '35251'
+    name: 'M4A3 Sherman 105mm Howitzer'
+    scale: '1/35'
+    boxart: '35/Tamiya/35251-800.jpg'
+    scalematesId: 'tamiya-35251-m4a3-sherman--105342'
+
+TAM35270:
+    brand: Tamiya
+    number: '35270'
+    name: 'Sd.Kfz. 222 Leichter Panzerspähwagen (4x4)'
+    scale: '1/35'
+    boxart: '35/Tamiya/35270-800.jpg'
+    scalematesId: 'tamiya-35270-sdkfz-222-leichter-panzerspaehwagen-4x4--128398'
+
+TAM35346:
+    brand: Tamiya
+    number: '35346'
+    name: 'U.S. Medium Tank M4A3E8 Sherman "Easy Eight" European Theater'
+    scale: '1/35'
+    boxart: '35/Tamiya/35346-800.jpg'
+    scalematesId: 'tamiya-35346-m4a3e8-sherman-easy-eight--959297'
+
+TAM35353:
+    brand: Tamiya
+    number: '35353'
+    name: 'Sd.Kfz.166 Sturmpanzer IV Brummb&auml;r'
+    scale: '1/35'
+    boxart: '35/Tamiya/35353-800.jpg'
+    scalematesId: 'tamiya-35353-brummbaer--1076227'
+
+TAM35369:
+    brand: Tamiya
+    number: '35369'
+    name: 'Panzerkamptwagen 38(t) Ausf. E/F'
+    scale: '1/35'
+    boxart: '35/Tamiya/35369-800.jpg'
+    scalematesId: 'tamiya-35369-pzkpfw-38-t-ausf-e-f--1239699'
+

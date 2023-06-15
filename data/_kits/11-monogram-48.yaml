@@ -1,0 +1,42 @@
+### == Monogram 1/48 kits
+
+MONOPA90:
+    brand: Monogram
+    number: 'PA90'
+    name: 'Hawker Hurricane'
+    scale: '1/48'
+    boxart: '48/Monogram/PA90-800.jpg'
+    scalematesId: 'monogram-pa90-hawker-hurricane--186968'
+
+MONO5258:
+    brand: Monogram
+    number: '5258'
+    name: 'Hawker Mk Ib Typhoon'
+    scale: '1/48'
+    boxart: '48/Monogram/5258-800.jpg'
+    scalematesId: 'monogram-85-5258-hawker-typhoon-mk-ib--193477'
+
+MONO5487:
+    brand: Monogram
+    number: '5487'
+    name: 'P-47D Thunderbolt'
+    scale: '1/48'
+    boxart: '48/Monogram/5487-800.jpg'
+    scalematesId: 'monogram-5487-thunderbolt-p-47d--234558'
+
+MONO6802:
+    brand: Monogram
+    number: '6802'
+    name: 'Hawker Hurricane'
+    scale: '1/48'
+    boxart: '48/Monogram/6802-800.jpg'
+    scalematesId: 'monogram-6802-hawker-hurricane--1014866'
+
+MONO6838:
+    brand: Monogram
+    number: '6838'
+    name: 'P-47D Thunderbolt "The Turtle"'
+    scale: '1/48'
+    boxart: '48/Monogram/6838-800.jpg'
+    scalematesId: 'monogram-6838-thunderbolt-p-47d--159066'
+

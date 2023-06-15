@@ -1,0 +1,34 @@
+### == Arii 1/48 kits
+
+ARIIA325:
+    brand: Arii
+    number: 'A325'
+    name: 'Kawasaki Ki-100 Tony'
+    scale: '1/48'
+    boxart: '48/Arii/Ki100-800.jpg'
+    scalematesId: 'arii-a325-600-kawasaki-ki-100-tony--114118'
+
+ARIIA328:
+    brand: Arii
+    number: 'A328'
+    name: "Nakajima Ki44 'Shoki' (Tojo)"
+    scale: '1/48'
+    boxart: '48/Arii/Ki44-800.jpg'
+    scalematesId: 'arii-a328-600-nakajima-ki44-shoki-tojo--937425'
+
+ARIIA332:
+    brand: Arii
+    number: 'A332'
+    name: 'Curtiss P-40E Warhawk'
+    scale: '1/48'
+    boxart: '48/Arii/P-40E-800.jpg'
+    scalematesId: 'arii-a332-800-curtiss-p-40e-warhawk--1009281'
+
+ARIIA334:
+    brand: Arii
+    number: 'A334'
+    name: 'Messerschmitt Bf109G'
+    scale: '1/48'
+    boxart: '48/Arii/Bf-109G-6-800.jpg'
+    scalematesId: 'arii-a334-800-messerschmitt-bf109g--313633'
+

@@ -1,0 +1,18 @@
+### == Revell 1/72 kits
+
+REV04164:
+    brand: Revell
+    number: '04164'
+    name: 'Supermarine Spitfire Mk V'
+    scale: '1/72'
+    boxart: '72/Revell/04164-800.jpg'
+    scalematesId: 'revell-04164-supermarine-spitfire-mk-v--123427'
+
+REV04165:
+    brand: Revell
+    number: '04165'
+    name: 'Focke Wulf Fw 190 A-8/R-11'
+    scale: '1/72'
+    boxart: '72/Revell/04165-800.jpg'
+    scalematesId: 'revell-04165-focke-wulf-fw-190-a-8-r-11--165847'
+

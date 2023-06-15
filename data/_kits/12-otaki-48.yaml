@@ -1,0 +1,69 @@
+### == Otaki 1/48 kits
+
+# Note that the boxart for this kit is actually an image of the Arii boxing of the same plastic.
+OT204:
+    brand: Otaki
+    number: '4'
+    name: 'A6M5 Type 52 "Zeke"'
+    scale: '1/48'
+    boxart: '48/Arii/A6M5-800.jpg'
+    scalematesId: 'otaki-ot2-4-300-type-zero-carrier-fighter-a6m5-zeke--1092040'
+
+# Note that the boxart for this kit is actually an image of the Arii boxing of the same plastic.
+OT205:
+    brand: Otaki
+    number: '5'
+    name: 'Nakajima Ki-43 Hayabusa "Oscar"'
+    scale: '1/48'
+    boxart: '48/Arii/Ki-43-800.jpg'
+    scalematesId: 'otaki-ot2-5-600-nakajima-ki-43-hayabusa-oscar--1092115'
+
+OT214:
+    brand: Otaki
+    number: '14'
+    name: 'Japanese Army Ki44 Fighter "Tojo"'
+    scale: '1/48'
+    boxart: '48/Otaki/Ki-44-800.jpg'
+    scalematesId: 'otaki-ot2-14-nakajima-ki-44-shoki-tojo--313698'
+
+OT224:
+    brand: Otaki
+    number: '24'
+    name: 'Spitfire Mk. VIII'
+    scale: '1/48'
+    boxart: '48/Otaki/Spitfire-800.jpg'
+    scalematesId: 'otaki-ot2-24-400-spitfire-mk-viii--313687'
+
+# Note that the boxart for this kit is actually an image of the Arii boxing of the same plastic.
+OT225:
+    brand: Otaki
+    number: '25'
+    name: 'Messerschmitt Bf 109G'
+    scale: '1/48'
+    boxart: '48/Arii/Bf-109G-6-800.jpg'
+    scalematesId: 'otaki-ot2-25-600-messerschmitt-bf109g--1092034'
+
+OT226:
+    brand: Otaki
+    number: '26'
+    name: 'Focke-Wulf Fw 190A-8'
+    scale: '1/48'
+    boxart: '48/Otaki/Fw-190-800.jpg'
+    scalematesId: 'otaki-ot2-26-400-focke-wulf-fw190a-8--313689'
+
+OT227:
+    brand: Otaki
+    number: '27'
+    name: 'Chance Voight F4U-1A Corsair'
+    scale: '1/48'
+    boxart: '48/Otaki/Corsair-800.jpg'
+    scalematesId: 'otaki-ot2-27-500-chance-vought-f4u-1a-corsair--313690'
+
+OT228:
+    brand: Otaki
+    number: '28'
+    name: 'Republic P-47D Thunderbolt'
+    scale: '1/48'
+    boxart: 'None'
+    scalematesId: 'otaki-ot2-28-600-republic-p-47d-thunderbolt--1023958'
+

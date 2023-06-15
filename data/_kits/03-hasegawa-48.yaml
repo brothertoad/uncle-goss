@@ -1,0 +1,300 @@
+### == Hasegawa 1/48 kits
+
+HASJ001:
+    brand: Hasegawa
+    number: 'J001'
+    name: 'Messerschmitt Bf 109E-3'
+    scale: '1/48'
+    boxart: 'None'
+    scalematesId: 'hasegawa-j001-1500-messerschmitt-bf109e-3--167691'
+
+HAS51510:
+    brand: Hasegawa
+    number: '51510/SP10'
+    name: 'Zero Fighter Type 52 Strange Insignia USA/UK'
+    scale: '1/48'
+    boxart: '48/Hasegawa/SP10-800.jpg'
+    scalematesId: 'hasegawa-51510-zero-fighter-type-52--141162'
+
+HAS52207:
+    brand: Hasegawa
+    number: '52207/SP407'
+    name: '[The Magnificent Kotobuki] A6M3 Zero Fighter Type 32 Naomi'
+    scale: '1/48'
+    boxart: '48/Hasegawa/52207-800.jpg'
+    scalematesId: 'hasegawa-sp407-magnificent-kotobuki-a6m3-zero-fighter-type-32-naomi--1212380'
+
+HAS64721:
+    brand: Hasegawa
+    number: '64721'
+    name: '[Shidenkai no Maki] Nakajima Ki44-II Type 2 Fighter Shoki (Tojo)'
+    scale: '1/48'
+    # note unusual boxart dimension
+    boxart: '48/Hasegawa/64721-500.jpg'
+    scalematesId: 'hasegawa-64721-nakajima-ki44-ii-type-2-fighter-shoki-tojo--963948'
+
+HAS64742:
+    brand: Hasegawa
+    number: '64742'
+    name: '[Shidenkai no Maki] Mitsubishi J2M3 Raiden (Jack) Type 32 "Nakayoshi"'
+    scale: '1/48'
+    # note unusual boxart dimension
+    boxart: '48/Hasegawa/64742-500.jpg'
+    scalematesId: 'hasegawa-64742-mitsubishi-j2m3-raiden-jack-type21-nakayoshi--1078854'
+
+HAS09010:
+    brand: Hasegawa
+    number: '09010/J10'
+    name: 'Messerschmitt Bf 109F-2'
+    scale: '1/48'
+    boxart: '48/Hasegawa/09010-800.jpg'
+    scalematesId: 'hasegawa-09010-messerschmitt-bf109f-2--135876'
+
+HAS09011:
+    brand: Hasegawa
+    number: '09011/J11'
+    name: 'Messerschmitt Bf 109F-4'
+    scale: '1/48'
+    boxart: '48/Hasegawa/09011-800.jpg'
+    scalematesId: 'hasegawa-09011-messerschmitt-bf109f-4--120374'
+
+HAS09012:
+    brand: Hasegawa
+    number: '09012/J12'
+    name: "Messerschmitt Bf 109F-4 Trop"
+    scale: '1/48'
+    boxart: '48/Hasegawa/09012-800.jpg'
+    scalematesId: 'hasegawa-09012-messerschmitt-bf109f-4-trop--953264'
+
+HAS09013:
+    brand: Hasegawa
+    number: '09013/J13'
+    name: 'Messerschmitt Bf 109G-2'
+    scale: '1/48'
+    boxart: '48/Hasegawa/09013-800.jpg'
+    scalematesId: 'hasegawa-09013-messerschmitt-bf-109-g-2--166321'
+
+HAS09063:
+    brand: Hasegawa
+    number: '09063/Jt63'
+    name: 'Messerschmitt Bf 109K-4'
+    scale: '1/48'
+    boxart: '48/Hasegawa/09063-800.jpg'
+    scalematesId: 'hasegawa-09063-messerschmitt-bf109-k-4--172494'
+
+HAS09064:
+    brand: Hasegawa
+    number: '09064/Jt64'
+    name: 'Messerschmitt Bf 109G-10'
+    scale: '1/48'
+    boxart: '48/Hasegawa/09064-800.jpg'
+    scalematesId: 'hasegawa-09064-messerschmitt-bf-109g-10--114472'
+
+HAS09065:
+    brand: Hasegawa
+    number: '09065/Jt65'
+    name: 'Hurricane Mk. I'
+    scale: '1/48'
+    boxart: 'None'
+    scalematesId: 'hasegawa-09065-hurricane-mki--197451'
+
+HAS09067:
+    brand: Hasegawa
+    number: '09067/Jt67'
+    name: 'Nakajima Ki 84-I Type 4 Hayate (Frank)'
+    scale: '1/48'
+    boxart: '48/Hasegawa/09067-800.jpg'
+    scalematesId: 'hasegawa-09067-nakajima-ki-84-i-type-4-hayate-frank--191557'
+
+HAS09073:
+    brand: Hasegawa
+    number: '09073/Jt73'
+    name: "Kawanishi N1J2-K Shidenkai (George) 'Early Version'"
+    scale: '1/48'
+    boxart: '48/Hasegawa/09073-800.jpg'
+    scalematesId: 'hasegawa-09073-kawanishi-n1k2-j-shidenkai-george--154070'
+
+HAS09079:
+    brand: Hasegawa
+    number: '09079/Jt79'
+    name: 'Spitfire Mk. IXc'
+    scale: '1/48'
+    boxart: '48/Hasegawa/09079-800.jpg'
+    scalematesId: 'hasegawa-09079-spitfire-mk-ixc--174650'
+
+HAS09080:
+    brand: Hasegawa
+    number: '09080/Jt80'
+    name: 'Nakajima Ki 43-I Hayabusa (Oscar)'
+    scale: '1/48'
+    boxart: '48/Hasegawa/09080-800.jpg'
+    scalematesId: 'hasegawa-09080-nakajima-ki43-i-hayabusa-oscar--114359'
+
+HAS09090:
+    brand: Hasegawa
+    number: '09090/Jt90'
+    name: 'Focke Wulf Fw 190A-3'
+    scale: '1/48'
+    boxart: 'None'
+    scalematesId: 'hasegawa-09090-focke-wulf-fw190a-3--104128'
+
+HAS09109:
+    brand: Hasegawa
+    number: '09109/Jt9'
+    name: "Messerschmitt Bf 109E-4/7 'Emil 4/7'"
+    scale: '1/48'
+    boxart: '48/Hasegawa/09109-800.jpg'
+    scalematesId: 'hasegawa-09109-messerschmitt-bf109e-4-7-emil-4-7--206875'
+
+HAS09111:
+    brand: Hasegawa
+    number: '09111/Jt11'
+    name: "Messerschmitt Bf 109E 'Galland'"
+    scale: '1/48'
+    boxart: '48/Hasegawa/09111-800.jpg'
+    scalematesId: 'hasegawa-09111-messerschmitt-bf109e-galland--147880'
+
+HAS09138:
+    brand: Hasegawa
+    number: '09138/Jt38'
+    name: "Kawasaki Ki-100-I Otsu (Tony)"
+    scale: '1/48'
+    boxart: '48/Hasegawa/09138-800.jpg'
+    scalematesId: 'hasegawa-09138-kawasaki-ki-100-i-otsu-tony--136214'
+
+HAS09141:
+    brand: Hasegawa
+    number: '09141/Jt41'
+    name: "P-47D-30/40 Thunderbolt"
+    scale: '1/48'
+    boxart: '48/Hasegawa/09141-800.jpg'
+    scalematesId: 'hasegawa-09141-p-47d-30-40-thunderbolt--948498'
+
+HAS09144:
+    brand: Hasegawa
+    number: '09144/Jt44'
+    name: "Kawasaki Ki-100-I Koh (Tony) 'Fastback'"
+    scale: '1/48'
+    boxart: '48/Hasegawa/09144-800.jpg'
+    scalematesId: 'hasegawa-09144-kawasaki-ki-100-koh-tony-fastback--143657'
+
+HAS09147:
+    brand: Hasegawa
+    number: '09147/Jt47'
+    name: 'Messerschmitt Bf 109G-6'
+    scale: '1/48'
+    boxart: '48/Hasegawa/09147-800.jpg'
+    scalematesId: 'hasegawa-09147-messerschmitt-bf-109-g-6--143544'
+
+HAS09181:
+    brand: Hasegawa
+    number: '09181/Jt121'
+    name: "Mitsubishi A6M3 Zero Fighter Type 32 'Houkoku'"
+    scale: '1/48'
+    boxart: '48/Hasegawa/09181-800.jpg'
+    scalematesId: 'hasegawa-09181-mitsubishi-a6m3-zero-fighter-type-32-houkoku--178438'
+
+HAS09196:
+    brand: Hasegawa
+    number: '091967/Jt136'
+    name: 'Mitsubishi J2M5 Raiden (Jack) Type 33'
+    scale: '1/48'
+    boxart: '48/Hasegawa/09196-800.jpg'
+    scalematesId: 'hasegawa-09196-mitsubishi-j2m5-raiden-jack-type-33--178443'
+
+HAS09255:
+    brand: Hasegawa
+    number: '09255/Jt155'
+    name: "P-51D Mustang 'Checkertail Clan'"
+    scale: '1/48'
+    boxart: '48/Hasegawa/09255-800.jpg'
+    scalematesId: 'hasegawa-09255-p-51d-mustang-checkertail-clan--946664'
+
+HAS09313:
+    brand: Hasegawa
+    number: '09313'
+    name: "Messerschmitt Bf 109G-6 'JG 53'"
+    scale: '1/48'
+    boxart: 'None'
+    scalematesId: 'hasegawa-09313-messerschmitt-bf109g-6-jg53--197201'
+
+HAS09363:
+    brand: Hasegawa
+    number: '09363'
+    name: "Messerschmitt Bf 109G-6 'Barkhorn'"
+    scale: '1/48'
+    boxart: '48/Hasegawa/09363-800.jpg'
+    scalematesId: 'hasegawa-09363-messerschmitt-bf109g-6-barkhorn--582781'
+
+HAS09412:
+    brand: Hasegawa
+    number: '09412'
+    name: "Kawasaki Ki61-I Tei Type 3 Fighter Hien (Tony) '56th Flight Regiment'"
+    scale: '1/48'
+    boxart: '48/Hasegawa/09412-800.jpg'
+    scalematesId: 'hasegawa-09412-kawasaki-ki61-i-tei-type3-fighter-hien-tony-56th-flight-regiment--114122'
+
+HAS09424:
+    brand: Hasegawa
+    number: '09424'
+    name: "Spitfire Mk. IXe"
+    scale: '1/48'
+    boxart: '48/Hasegawa/09424-800.jpg'
+    scalematesId: 'hasegawa-09424-spitfire-mkixe--958074'
+
+HAS09508:
+    brand: Hasegawa
+    number: '09508'
+    name: "Nakajima Ki43-II Hayabusa (Oscar) '248th Flight Regiment'"
+    scale: '1/48'
+    boxart: '48/Hasegawa/09508-800.jpg'
+    scalematesId: 'hasegawa-09508-nakajima-ki43-ii-hayabusa-oscar--931552'
+
+HAS09531:
+    brand: Hasegawa
+    number: '09531'
+    name: "Nakajima Ki44-II Hei Shoki (Tojo) '104th Flight Regiment'"
+    scale: '1/48'
+    boxart: '48/Hasegawa/09531-800.jpg'
+    scalematesId: 'hasegawa-09531-nakajima-ki44-ii-hei-shoki-tojo-104th-flight-regiment--931556'
+
+HAS09571:
+    brand: Hasegawa
+    number: '09571'
+    name: "Spitfire Mk. Vb 'U.S.A.A.F.'"
+    scale: '1/48'
+    boxart: '48/Hasegawa/09571-800.jpg'
+    scalematesId: 'hasegawa-09571-spitfire-mk-vb-u-s-a-a-f--237795'
+
+HAS09600:
+    brand: Hasegawa
+    number: '09600'
+    name: "F6F-5 Hellcat 'French Navy'"
+    scale: '1/48'
+    boxart: '48/Hasegawa/09600-800.jpg'
+    scalematesId: 'hasegawa-09600-f6f-5-hellcat-french-navy--931572'
+
+HAS09728:
+    brand: Hasegawa
+    number: '09728'
+    name: "Nakajima Ki43-II Hayabusa (Oscar) 'Mainland Defense'"
+    scale: '1/48'
+    boxart: 'None'
+    scalematesId: 'hasegawa-09728-nakajima-ki43-ii-hayabusa-oscar--631185'
+
+HAS09740:
+    brand: Hasegawa
+    number: '09740'
+    name: "P-40N Warhawk '15,000th Anniversary'"
+    scale: '1/48'
+    boxart: '48/Hasegawa/09740-800.jpg'
+    scalematesId: 'hasegawa-09740-p-40n-warhawk-15-000th-anniversary--141185'
+
+HAS09870:
+    brand: Hasegawa
+    number: '09870'
+    name: "Kawanishi N1K1-Ja Shiden (George) Type 11 Koh 'Yokosuka Flying Group'"
+    scale: '1/48'
+    boxart: '48/Hasegawa/09870-800.jpg'
+    scalematesId: 'hasegawa-09870-kawanishi-n1k1-ja-shiden-george-type-11-koh-yokosuka-flying-group--101220'
+

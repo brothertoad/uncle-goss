@@ -1,0 +1,106 @@
+### == Academy 1/72 kits
+
+ACA1653:
+    brand: Academy
+    number: '1653'
+    name: 'Messerschmitt Bf 109G-14'
+    scale: '1/72'
+    boxart: '72/Academy/1653-800.jpg'
+    scalematesId: 'academy-1653-messerschmitt-bf-109g-14--132317'
+
+ACA1664:
+    brand: Academy
+    number: '1664'
+    name: 'Typhoon Mk Ib'
+    scale: '1/72'
+    boxart: '72/Academy/1664-800.jpg'
+    scalematesId: 'academy-01664-typhoon-mk-ib--247726'
+
+ACA1667:
+    brand: Academy
+    number: '1667'
+    name: 'P-51B Mustang'
+    scale: '1/72'
+    boxart: 'None' # '72/Academy/1667-800.jpg'
+    scalematesId: 'academy-1667-p-51b-mustang--107350'
+
+ACA1670:
+    brand: Academy
+    number: '1670'
+    name: 'Messerschmitt Bf 109G-6'
+    scale: '1/72'
+    boxart: '72/Academy/1670-800.jpg'
+    scalematesId: 'academy-01670-messerschmitt-bf-109g-6--930788'
+
+ACA2120:
+    brand: Academy
+    number: '2120'
+    name: 'Focke Wulf Fw190A-6/8'
+    scale: '1/72'
+    boxart: '72/Academy/2120-800.jpg'
+    scalematesId: 'academy-2120-fockewulf-fw190a-6-8--203945'
+
+ACA2129:
+    brand: Academy
+    number: '2129'
+    name: 'Hurricane Mk.IIc'
+    scale: '1/72'
+    boxart: '72/Academy/2129-800.jpg'
+    scalematesId: 'academy-2129-hurricane-mkiic--1020877'
+
+ACA2132:
+    brand: Academy
+    number: '2132'
+    name: 'North American P-51D Mustang'
+    scale: '1/72'
+    boxart: '72/Academy/2132-800.jpg'
+    scalematesId: 'academy-2132-north-american-p-51d-mustang--197037'
+
+ACA2133:
+    brand: Academy
+    number: '2133'
+    name: 'Messerschmitt Bf 109E'
+    scale: '1/72'
+    boxart: '72/Academy/2133-800.jpg'
+    scalematesId: 'academy-2133-messerschmitt-bf109e--203949'
+
+ACA2174:
+    brand: Academy
+    number: '2174'
+    name: 'P-47D Thunderbolt "Bubble Top"'
+    scale: '1/72'
+    boxart: 'None'
+    scalematesId: 'academy-2174-p-47d-thunderbolt-bubble-top--107421'
+
+ACA2176:
+    brand: Academy
+    number: '2176'
+    name: 'A6M5c Zero Fighter Type 52c'
+    scale: '1/72'
+    boxart: '72/Academy/2176-800.jpg'
+    scalematesId: 'academy-2176-a6m5c-zero-fighter-type-52c--1027260'
+
+ACA2224:
+    brand: Academy
+    number: '2224'
+    name: 'F6F-3/5 Hellcat'
+    scale: '1/72'
+    boxart: '72/Academy/2224-800.jpg'
+    scalematesId: 'academy-2224-f6f-3-5-hellcat--103407'
+
+ACA2213:
+    brand: Academy
+    number: '2213'
+    name: 'Focke-Wulf Fw 190A-8 "Heinz B&auml;r" With K&uuml;belwagen'
+    scale: '1/72'
+    boxart: '72/Academy/2213-800.jpg'
+    scalematesId: 'academy-2213-fockewulf-fw-190a8--107451'
+
+ACA12474:
+    brand: Academy
+    number: '12474'
+    name: 'P-47D "Eileen"'
+    scale: '1/72'
+    boxart: '72/Academy/12474-800.jpg'
+    scalematesId: 'academy-12474-p-47d-eileen--1233749'
+
