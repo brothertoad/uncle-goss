@@ -6,3 +6,4 @@
   # - three
 post: ./post.sh
 # templateFormat: go
+perPageDataDir: perPage
