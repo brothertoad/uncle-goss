@@ -19,6 +19,7 @@
   </p>
   {% endif %}
   {{ contents | safe }}
+  {% block buildblock %}{% endblock %}
   <div class="row-parent">
     <div class="tl column-25">
       {% if previousUrl %}

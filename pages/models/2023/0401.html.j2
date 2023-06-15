@@ -2,10 +2,9 @@
 kit: TAM61090
 ---
 {% extends "layouts/build.html.j2" %}
-{% block content %}
+{% block buildblock %}
 {% import "layouts/macros.html.j2" as m %}
 {% import "layouts/filters.html.j2" as f %}
-{{ super() }}
 
 <p>
   I attempted to build the {{f.linkTo('Italeri P-47D','https://www.scalemates.com/kits/italeri-2728-p-47d-thunderbolt--197535')}}

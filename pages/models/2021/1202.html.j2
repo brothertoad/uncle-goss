@@ -2,10 +2,9 @@
 kit: TAM60201
 ---
 {% extends "layouts/build.html.j2" %}
-{% block content %}
+{% block buildblock %}
 {% import "layouts/macros.html.j2" as m %}
 {% import "layouts/filters.html.j2" as f %}
-{{ super() }}
 
 <p>
   As I mentioned in {{f.linkTo('my last build','../1201/')}},

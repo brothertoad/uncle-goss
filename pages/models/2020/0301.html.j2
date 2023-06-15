@@ -2,10 +2,9 @@
 kit: MENGWWT012
 ---
 {% extends "layouts/build.html.j2" %}
-{% block content %}
+{% block buildblock %}
 {% import "layouts/macros.html.j2" as m %}
 {% import "layouts/filters.html.j2" as f %}
-{{ super() }}
 
 <p>
     This build was the result of yet another sequence of failed builds.  I was getting
