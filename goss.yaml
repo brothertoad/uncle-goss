@@ -4,6 +4,7 @@
   # - one
   # - two
   # - three
+pre: uuprep
 post: ./post.sh
 # templateFormat: go
 perPageDataDir: perPage
