@@ -240,3 +240,10 @@ TAM61096:
     boxart: '48/Tamiya/61096-800.jpg'
     scalematesId: 'tamiya-61096-republic-p-47m-thunderbolt--120293'
 
+TAM61109:
+    brand: Tamiya
+    number: '61109'
+    name: 'Dewoitine D.520 "French Aces" w/Staff Car'
+    scale: '1/48'
+    boxart: '48/Tamiya/61109-800.jpg'
+    scalematesId: 'tamiya-61109-dewoitine-d520-french-aces-w-staff-car--133956'

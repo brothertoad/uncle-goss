@@ -1,0 +1,36 @@
+---
+kit: TAM61109
+---
+{% extends "layouts/build.html.j2" %}
+{% block buildblock %}
+{% import "layouts/macros.html.j2" as m %}
+{% import "layouts/filters.html.j2" as f %}
+
+<p>
+  This is the boxing of the Tamiya Dewoitine D.520 that comes with an expanded set
+  of decals as well as a staff car.  As it happens, I used the decals from
+  {{f.linkTo("my earlier build","../../2021/0602/")}} of the original boxing of the D.520.
+  I also didn't build the staff car, as I have no interest in it.  (If anyone reading
+  this has any interest in the staff car, drop me a line.  My contact info is on
+  {{f.linkTo("the about page","/about/")}}.)
+</p>
+<p>
+  The kit goes together very well.  About the only issue I had was attaching the
+  canopy at the very end, which is probably a reflection on me rather than the kit.
+  This build uses the same basic colors as my first build, but the camouflage
+  pattern is significantly different.  I thought the polka dots (for want of a better term)
+  were quite striking.  I used all AMMO by Mig paints on the exterior (excepting the
+  propellor/spinner, for which I used Auto Borne Sealer Black).  The bottom is
+  FS36320 Dark Compass Ghost Gray (AMMO 0208), and the top is FS35164 Intermediate
+  Blue ANA 608 (AMMO 0228), Green Moss (AMMO 0074) and Rust Tracks (AMMO 0034).
+  The brown dots were applied with a microbrush - it kind of looks like the plane
+  has the measles.
+</p>
+<p>
+  I used the Eduard mask for the canopy.  I didn't paint the frames on the rear
+  sections.
+</p>
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}
+{% endblock %}
