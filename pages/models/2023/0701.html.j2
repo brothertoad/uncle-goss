@@ -1,0 +1,40 @@
+---
+kit: TAM61037
+---
+{% extends "layouts/build.html.j2" %}
+{% block buildblock %}
+{% import "layouts/macros.html.j2" as m %}
+{% import "layouts/filters.html.j2" as f %}
+
+<p>
+  This is third time I've built this kit, and it took two tried to get this attempt right.
+  I had these decals from Karaya, and wanted to build a captured plane.  Nothing much to say
+  about the assembly, except for the landing gear, which I always manage to mess up.
+  My first foul-up was attaching the strut cover to the strut - one of them gave me trouble,
+  and I had to attach it with epoxy.  I seem to always have trouble attaching the landing gear
+  to the plane itself, perhaps due to the actuating arms.  This time I glued the landing gear
+  struts to the wing using superglue, and let that dry.  I then used epoxy to attach the
+  actuating arms, which wasn't quite as hard as I expected.  Once the epoxy dried, the
+  struts were quite solid, and I attached the wheels, also with epoxy.
+</p>
+<p>
+  The bottom is Tamiya {{f.txf('3')}} Flat Yellow.  This isn't quite as orange as British
+  yellow, but it was close enough for me.  I used Tamiya {{f.txf('54')}} Dark Sea Grey
+  for the Ocean Grey on the top, since I had run out of {{f.txf('82')}}.  The Dark Green
+  is AMMO 0206 {{f.rlm('81')}} RS34079 BS641.  After I painted the exhaust panels black,
+  I noticed that two of the three subjects on the instruction sheet don't have the panels
+  painted, so I don't know if it would have been.
+</p>
+<p>
+  The decals are from Karaya D4802 Captured Butcherbirds vol 1.  They were printed by
+  {{f.linkTo('Techmod','http://www.techmod.pl/')}} and went on well, but unfortunately
+  the serial number on the left side folded over onto itself, and I was unable to unfold it.
+  The decal sheet shows the rooster head on the left cowling.  This is left over from the
+  original German colors.  It seems odd to me that the British would have left it, as they
+  would presumably had to paint around it.  But I'll confess I haven't looked for photos
+  of the actual plane on the web.
+</p>
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}
+{% endblock %}
