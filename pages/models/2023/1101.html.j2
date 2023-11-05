@@ -1,0 +1,35 @@
+---
+kit: TAM61050
+---
+{% extends "layouts/build.html.j2" %}
+{% block buildblock %}
+{% import "layouts/macros.html.j2" as m %}
+{% import "layouts/filters.html.j2" as f %}
+
+<p>
+  This is the Tamiya Bf 109E-3 kit, converted to an E-1.  I did the conversion by
+  filling in the gun bulges on the bottom of the wings with Tamiya Epoxy putty,
+  sanding off the bulges, and not attaching the cannon barrels.
+</p>
+<p>
+  There really isn't much else to say about assembly.  My modeling mojo has been
+  low over the past few months, which is why this one took so long.  The decals are
+  from Aeromaster 48-496 Blitzkrieg on Poland part 1.  This subject is bi-chromatic,
+  with all of the exterior either {{f.rlm('65')}} (bottom) or {{f.rlm('70')}} (top).
+  I used my Tamiya mix for the {{f.rlm('65')}}.  I mixed it some time ago and didn't
+  note the ingredients, but it is probably the mix Tamiya recommends in the instructions,
+  which is 2 parts {{f.txf('23')}} to 1 part {{f.txf('2')}}.
+  The {{f.rlm('70')}} is {{f.txf('27')}} Black Green.
+</p>
+<p>
+  As mentioned above, the assembly was pretty straightforward, until the very last
+  step, which was attaching the rear section of the canopy.  I kind of fumbled that.
+  I did use my own custom mask for the canopy.  I created an SVG file and used my
+  Silhouette Portrait to cut it.  It took a couple of tries, and some of the pieces
+  still weren't quite right, but it was good enough for me.  At some point, I will
+  put a link to the file on this site so others can download it if they want.
+</p>
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}
+{% endblock %}
