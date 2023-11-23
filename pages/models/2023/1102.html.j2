@@ -1,0 +1,41 @@
+---
+kit: HAS64729
+---
+{% extends "layouts/build.html.j2" %}
+{% block buildblock %}
+{% import "layouts/macros.html.j2" as m %}
+{% import "layouts/filters.html.j2" as f %}
+
+<p>
+  Here is another kit from Hasegawa's Creator Works line.  This is the Ki-44 II Shoki.
+  This specific plane appears to be from The Cockpit, which I assume is a manga or
+  an anime (according to {{f.linkTo('Wikipedia','https://en.wikipedia.org/wiki/The_Cockpit_(OVA)')}}, it is the latter).
+  At any rate, like the other kits in the Creator Works line, it provides markings
+  that are a bit off the beaten path.
+</p>
+<p>
+  I started this kit some months ago, and had the basic airframe assembled, when I
+  broke one of the landing gear axles attempting to attach the wheel.  I was so
+  frustrated that I put the kit on the Shelf of Doom.  After finishing
+  {{f.linkTo('my previous build','../1101/')}}, I decided to see if it could be
+  salvaged.  I used a section of a safety pin to replace the axle, and was able to
+  resume work on the build.
+</p>
+<p>
+  Other than the mishap with the landing gear, assembly wasn't too difficult, especially
+  as I have built this kit before.  The exterior was painted with Tamiya paints.
+  I used {{f.txf('16')}} Flat Aluminum for the bottom,
+  although it was a bit grainy (as it usually is).  The top was {{f.txf('13')}} JA
+  Green, which is quite a bit darker than the box art.  I painted the yellow on
+  the wing leading edges (Floquil Reefer Yellow) and the anti-glare panel on
+  the top of the fuselage ({{f.txf('1')}} Flat Black).  I spent some time trying to
+  make a mask for my Silhouette Portrait cutter for the wing edges.  The one I made
+  wasn't quite right, but I used it anyway.
+</p>
+<p>
+  I used the Eduard EX087 mask for the canopy, which fit very well.
+</p>
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}
+{% endblock %}

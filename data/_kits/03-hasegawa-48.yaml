@@ -33,6 +33,14 @@ HAS64721:
     boxart: '48/Hasegawa/64721-500.jpg'
     scalematesId: 'hasegawa-64721-nakajima-ki44-ii-type-2-fighter-shoki-tojo--963948'
 
+HAS64729:
+    brand: Hasegawa
+    number: '64729'
+    name: 'The Cockpit Nakajima Ki44-II Type 2 Fighter Shoki (Tojo)'
+    scale: '1/48'
+    boxart: '48/Hasegawa/64729-800.jpg'
+    scalematesId: 'hasegawa-64729-nakajima-ki44-ii-type-2-fighter-shoki-tojo--988356'
+
 HAS64742:
     brand: Hasegawa
     number: '64742'
@@ -297,4 +305,3 @@ HAS09870:
     scale: '1/48'
     boxart: '48/Hasegawa/09870-800.jpg'
     scalematesId: 'hasegawa-09870-kawanishi-n1k1-ja-shiden-george-type-11-koh-yokosuka-flying-group--101220'
-
