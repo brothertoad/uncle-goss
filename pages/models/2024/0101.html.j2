@@ -1,0 +1,44 @@
+---
+kit: HC1543
+---
+{% extends "layouts/build.html.j2" %}
+{% block buildblock %}
+{% import "layouts/macros.html.j2" as m %}
+{% import "layouts/filters.html.j2" as f %}
+
+<p>
+  Another build from the Shelf of Doom.  I started this kit some time last year
+  (I think) and put it aside, as I wasn't happy with the way it was turning out.
+  When I picked it up again, I figured I could live with it.
+</p>
+<p>
+  There is nothing much to say about the kit, except to say that it does not go
+  together like a Tamiya - but doesn't cost as much as Tamiya either.  I decided to
+  do a Romanian subject.  (After looking at my shelves of completed kits, I realized
+  I've built several Romanian subjects.)  The {{f.rlm('04')}} is Tamiya
+  {{f.txf('3')}} Flat Yellow, the {{f.rlm('65')}} on the bottom is a Tamiya mix I made a
+  number of years ago - I didn't note the formula I used.  I've seen the upper
+  surfaces of Romanian 109's shown as both {{f.rlm('70')}} Black Green and {{f.rlm('71')}}
+  Dark Green.  I've already done one using {{f.rlm('70')}}, so I decided to make this one
+  {{f.rlm('71')}}.  I used AMMO 0233 {{f.rlm('71')}} Dunkelgr&uuml;n, which was a bit
+  more {{f.nowrap('olive-ish')}} than I expected.
+</p>
+<p>
+  The decals came from the kit.  The same subject is on USK sheet 4103.  I started to
+  use the USK sheet, but the first decal I tried did not want to come off the backing
+  sheet, so I discarded it and used the Hobbycraft sheet.  Interestingly, the USK
+  painting instructions show the camouflage as a splinter pattern of {{f.rlm('71')}}
+  and {{f.rlm('70')}}, but I don't think I've ever seen a Gustav with a splinter
+  pattern.
+</p>
+<p>
+  I used EZ masks number 21 to mask the canopy.  The fit wasn't perfect, but given
+  how the rest of the model was turning out, it was good enough.  The way I glued in
+  the instrument panel did not leave an opening for the gunsight, so I left it off.
+  I also omitted the armor plate behind the pilot's head, as you have to glue it
+  directly to the top of the main canopy, and I didn't think that would look clean.
+</p>
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}
+{% endblock %}
