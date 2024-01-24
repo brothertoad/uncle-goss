@@ -96,6 +96,14 @@ TAM35353:
     boxart: '35/Tamiya/35353-800.jpg'
     scalematesId: 'tamiya-35353-brummbaer--1076227'
 
+TAM35355:
+    brand: Tamiya
+    number: '35355'
+    name: 'Infantry Tank Matilda Mk. III/IV "Red Army"'
+    scale: '1/35'
+    boxart: '35/Tamiya/35355-800.jpg'
+    scalematesId: 'tamiya-35355-matilda-mkiii-iv--1029469'
+
 TAM35369:
     brand: Tamiya
     number: '35369'
@@ -103,4 +111,3 @@ TAM35369:
     scale: '1/35'
     boxart: '35/Tamiya/35369-800.jpg'
     scalematesId: 'tamiya-35369-pzkpfw-38-t-ausf-e-f--1239699'
-
