@@ -1,0 +1,43 @@
+---
+kit: TAM61040
+---
+{% extends "layouts/build.html.j2" %}
+{% block buildblock %}
+{% import "layouts/macros.html.j2" as m %}
+{% import "layouts/filters.html.j2" as f %}
+
+<p>
+  This is one of Tamiya's P-51 kits.  I've built the Tamiya P-51D several times
+  before, so I knew what to expect and didn't encounter any major problems.
+</p>
+<p>
+  I was originally going to use decals from the
+  {{f.linkTo('Hobbycraft P-51 Sharkmouths','https://www.scalemates.com/kits/hobbycraft-hc1516-p-51-sharkmouths--1018623')}}
+  kit, but decided to do a subject from Xtracdecals Bubbletop P-51 Mustang
+  Collection part 2 (sheet number 48177).  The Xtradecals sheet contained a Swedish
+  plane that had a very simple color scheme - dark green over gray.  The question was,
+  what colors to use?
+  The {{f.linkTo('IPMS Stockholm color charts for Sweden','https://www.ipmsstockholm.se/home/urbans-color-reference-charts-part-i/urbans-colour-reference-charts-sweden/')}}
+  show {{f.txf('61')}} Dark Green on top and {{f.txf('66')}} Light Grey (which isn't that light)
+  on bottom.  I lightened the Light Grey by adding some {{f.txf(2)}} Flat White - the ratio
+  was about {{f.nowrap('50:50')}} - for the bottom, and {{f.txf('13')}} JA Dark Green for the top.
+  I liked the way the colors turned out.
+</p>
+<p>
+  While building the kit, I realized that the decal sheet only had four Swedish insignia:
+  two small (for the fuselage) and two large (for the wings).  However, Swedish aircraft
+  carried insignia on both left and right on both the top and the bottom of the wings, so
+  I was had to buy a second copy of the decal sheet.  The decals went on well, using
+  Quick Shine as a decal setting solution.  The {{f.nowrap('P-51')}} wings have a large
+  hinge (?) on the outboard aileron, and the insignia sits right on top it.  I tried using
+  Microsol to soften the decal, but had to eventually resort to Tamiya Mark Fit.
+  The decals are still wrinkled.
+</p>
+<p>
+  I remembered to put the stencils on the prop blades - they came from the kit.  It wasn't
+  until I was finished that I realized there should also be stencils on the drop tanks.  Oh, well.
+</p>
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}
+{% endblock %}
