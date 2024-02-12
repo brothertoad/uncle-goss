@@ -10,6 +10,8 @@
     <link href="https://fonts.googleapis.com/css?family=Droid+Serif%7cMerriweather+Sans:400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
     <link rel="stylesheet" href="/css/site.css">
+    {% set parts = ("https://www.uncleuncool.net", canonical) %}
+    <link rel="canonical" href="{{ parts|join }}"/>
     <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
