@@ -1,0 +1,44 @@
+---
+kit: HAS09130
+---
+{% extends "layouts/build.html.j2" %}
+{% block buildblock %}
+{% import "layouts/macros.html.j2" as m %}
+{% import "layouts/filters.html.j2" as f %}
+
+<p>
+  Been a bit of a dry spell, as I've been distracted, and I also FUBARed a couple of builds
+  (nothing new there).
+</p>
+<p>
+  I have tried to build this kit at least twice before, and been frustrated both times.
+  I was a little surprised to see that {{f.linkTo('I was successful once before', '../../2015/1002/')}},
+  although using a different boxing.  I barely made it through this time - at several points during
+  the build, this kit came very close to getting tossed in the trash.  This kit seems very fiddly to me.
+</p>
+<p>
+  I actually had to cut off the locating pins on the wings when attaching the top to the bottom.
+  If I had not done that, the gun barrel shrouds would not have aligned.  They still didn't align
+  just right, but close enough that I could live with it.  I also had trouble getting the landing gear
+  to fit into the bay.  After struggling with that, I left off the actuating arms on the inner doors.
+  After I had attached the tail planes, using CA adhesive, I left the kit.  When I came back, I realized
+  that the left tail plane had come away from the fuselage.  Things like this are one of the many, many
+  reasons I don't enter my builds in contests.
+</p>
+<p>
+  I had decided that this would be an RAF subject, but did not decide which one until construction
+  was well underway.  The decals came from Aeromaster {{f.nowrap('48-669')}} RAF {{f.nowrap('P-51')}}
+  Mustang Part 1.  Since the build was tedious, I chose the simplest paint scheme.  I used Tamiya
+  {{f.nowrap('LP-38')}} Flat Aluminum for the NMF.  This the first time I used this.  The finish was
+  a bit duller than I had expected, which is, I suppose, the point.  The yellow on the spinner and the
+  anti-glare panel is {{f.txf('3')}} Flat Yellow.
+</p>
+<p>
+  I used 0.030" plastic rod for the gun barrels, as I did not look forward to the prospect of
+  removing the short pieces from the sprue and then having to sand the connection point.  One of them
+  broke at some point.  I used EZ Mask 217 for the canopy, which fit quite well.
+</p>
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}
+{% endblock %}
