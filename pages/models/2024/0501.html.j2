@@ -1,0 +1,21 @@
+---
+kit: TAM35176
+---
+{% extends "layouts/build.html.j2" %}
+{% block buildblock %}
+{% import "layouts/macros.html.j2" as m %}
+{% import "layouts/filters.html.j2" as f %}
+
+<p>
+  My modeling mojo has definitely been waning lately.  I almost had to force myself to finish this build.
+</p>
+<p>
+  Like all modern or semi-modern Tamiya armor kits, this Panther went together very easily.  The exterior
+  was painted {{f.txf('60')}} Dark Yellow for the base coat, and {{f.txf('26')}} Deep Green and Model Master
+  Acryl Burnt Sienna for the disruptive camouflage.  I believe in real life the brown was the base coat,
+  as it was a red oxide primer.  The decals came from Star Decals {{f.nowrap('35-979')}} Battle For Berlin.
+</p>
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}
+{% endblock %}
