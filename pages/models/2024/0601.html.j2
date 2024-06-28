@@ -1,0 +1,33 @@
+---
+kit: TAM61013
+---
+{% extends "layouts/build.html.j2" %}
+{% block buildblock %}
+{% import "layouts/macros.html.j2" as m %}
+{% import "layouts/filters.html.j2" as f %}
+
+<p>
+  My modeling mojo has still been on the wane, but I did manage to finish this build.
+  I started this build a few months ago, and got frustrated, but was eventually able
+  to finish it.  It turned out rather nice.
+</p>
+<p>
+  I made a list of things to try out, modeling-wise, and a list of kits to try them
+  out on.  The kits were old and/or cheap, since the experiments might fail, and I
+  didn't want to ruin an expensive kit or one that might be hard to replace.  This kit,
+  being both inexpensive and easy to find, fit the bill.  But once I got near the
+  finish line, I didn't want to take a chance on ruining the build, especially as my
+  pace has been glacial of late, so I stuck with my usual practices.
+</p>
+<p>
+  The bottom is {{f.txf('14')}} JA Grey and the top is {{f.txf('13')}} JA Green.  The
+  edge of the wing is {{f.txf('3')}} Flat Yellow.  Flat Yellow was also used on the
+  propellor blades.  I sprayed the yellow, masked it, then sprayed {{f.txf('10')}}
+  Flat Brown.  It turned out much nicer that using decals.  Decals came from the kit.
+  The canopy was masked by using the EZ Mask as a template.  The masks were too
+  small, but good enough for this build.
+</p>
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}
+{% endblock %}
