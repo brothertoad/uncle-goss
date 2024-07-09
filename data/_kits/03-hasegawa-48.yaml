@@ -202,6 +202,14 @@ HAS09147:
     boxart: '48/Hasegawa/09147-800.jpg'
     scalematesId: 'hasegawa-09147-messerschmitt-bf-109-g-6--143544'
 
+HAS09178:
+    brand: Hasegawa
+    number: '09178/Jt118'
+    name: "Macchi C.205 Veltro 'ANR Version'"
+    scale: '1/48'
+    boxart: '48/Hasegawa/09178-800.jpg'
+    scalematesId: 'hasegawa-09178-macchi-c205-veltro-anr-version--122302'
+
 HAS09181:
     brand: Hasegawa
     number: '09181/Jt121'

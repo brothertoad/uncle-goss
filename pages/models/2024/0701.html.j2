@@ -1,0 +1,34 @@
+---
+kit: HAS09178
+---
+{% extends "layouts/build.html.j2" %}
+{% block buildblock %}
+{% import "layouts/macros.html.j2" as m %}
+{% import "layouts/filters.html.j2" as f %}
+
+<p>
+  i think I'm starting to get my modeling mojo back.  I pretty much just grabbed
+  this kit from the stash and started building.  It went together well, and now I
+  have an Italian subject on my shelf.
+</p>
+<p>
+  Although this aircraft was painted with Luftwaffe colors, it was a bit simpler than
+  the typical Luftwaffe subject, as it is pure camouflage - no yellow.  The bottom
+  was my {{f.rlm('76')}} mix, which is equal parts {{f.txf('23')}} Light Blue and
+  {{f.txf('2')}} Flat White.  The {{f.rlm('75')}} on the top was {{f.txf('54')}} Dark
+  Sea Grey.  I used Tamiya's formula for the {{f.rlm('74')}}, which, if I recall
+  correctly, was {{f.txf('24:3')}} and {{f.txf('27:2')}}.  I decided to be a little
+  brave with build, so I did the camouflage freehand - no masking at all.  I thought
+  it turned out well, as well as being much faster.  I did both top colors in one
+  session.
+</p>
+<p>
+  I also decided to break down and create my own SVG file for the canopy mask, and then
+  use my Silhouette Portrait vinyl cutter to actually make the mask.  It turned out
+  well.  The final SVG file I used can be found
+  {{f.linkTo('here','https://uumodels.s3.us-west-2.amazonaws.com/masks/48-Hasegawa-Macchi.svg')}}.
+</p>
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}
+{% endblock %}
