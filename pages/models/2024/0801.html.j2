@@ -1,0 +1,52 @@
+---
+kit: TAM61041
+---
+{% extends "layouts/build.html.j2" %}
+{% block buildblock %}
+{% import "layouts/macros.html.j2" as m %}
+{% import "layouts/filters.html.j2" as f %}
+
+<p>
+  I picked up this kit at a local swap meet that occurs three times a year.  I think
+  I purchased this in July, which means this kit probably went from purchase to completion
+  more quickly than any of my previous builds.
+</p>
+<p>
+  I've been meaning to try out some things, like different primers and different clear
+  coats.  Since there is a good chance - by "good", I mean even more than my usual
+  chance - that the build will end up FUBAR, I wanted to use relatively cheap kits
+  that I could replace easily.  This kit fit the build.  I have several aftermarket
+  decals for Doras, but I actually ended up using the kit decals.
+</p>
+<p>
+  The kit went together well, as the Tamiya 1/48 kits tend to.  As I mentioned, I wanted
+  to use a different primer, so I primed with Dupli-Color White primer, which is any automotive
+  primer.  It worked well.  I used the Dupli-Color Gray primer on the propellor and spinner,
+  and it worked well also.  I have found that automotive primers work better than DIY
+  primers.  The exterior was painted with Tamiya paints.
+  The {{f.rlm('76')}} on the bottom is my mix of {{f.txf('23:1')}} and
+  {{f.txf('2:1')}}, the {{f.rlm('75')}} on the top is {{f.txf('54')}} and the {{f.rlm('82')}}
+  is {{f.txf('61')}}.
+</p>
+<p>
+  I also wanted to use a different clear coat, so I gloss coated with Krylon ColorMaster
+  51301 Gloss Acrylic Crystal Clear.  I used this both before and after decals.  It goes on
+  a bit thicker than airbrushed Quick Shine, and thus takes a little longer to dry, but
+  the gloss was perfect.  Since I was using decals from a Japanese kit, I used Mr. Mark
+  Setter for the decals.  It worked well, but left some white flakes on the upper wings,
+  particularly the port side.  I was even able to apply the spiral on the spinner, which
+  I often have trouble with.  I will also admit that spray painting is a bit less of a
+  hassle than airbrushing.
+</p>
+<p>
+  Just as with {{f.linkTo('the Veltro','../0701/')}}, I created my own SVG file for the canopy mask, and then
+  use my Silhouette Portrait vinyl cutter to actually make the mask.  It turned out
+  OK, although I may try to improve it for my next 190.  The SVG file included the three
+  parts of the windscreen, and the lower front and back of the main canopy.  I masked
+  the top of the canopy by hand.  The final SVG file I used can be found
+  {{f.linkTo('here','https://uumodels.s3.us-west-2.amazonaws.com/masks/48-Tamiya-Fw-190.svg')}}.
+</p>
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}
+{% endblock %}
