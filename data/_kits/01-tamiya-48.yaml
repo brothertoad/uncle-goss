@@ -208,6 +208,14 @@ TAM61086:
     boxart: '48/Tamiya/61086-800.jpg'
     scalematesId: 'tamiya-61086-republic-p-47d-thunderbolt--121538'
 
+TAM61087:
+    brand: Tamiya
+    number: '61087'
+    name: 'Messerschmitt Me 262A-1a'
+    scale: '1/48'
+    boxart: '48/Tamiya/61087-800.jpg'
+    scalematesId: 'tamiya-61087-messerschmitt-me262-a-1a--128732'
+
 TAM61089:
     brand: Tamiya
     number: '61089'
