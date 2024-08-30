@@ -1,0 +1,33 @@
+---
+kit: TAM61087
+---
+{% extends "layouts/build.html.j2" %}
+{% block buildblock %}
+{% import "layouts/macros.html.j2" as m %}
+{% import "layouts/filters.html.j2" as f %}
+
+<p>
+  I tried to build one of the Hobby Boss Me 262 kits, and it ended up FUBAR, so I grabbed
+  this kit from the stash.  It did not go together quite as easily as most Tamiya kits,
+  partially because the Me 262 itself was rather complex.  As you can tell by the
+  photos, I did not get the cowling over the guns to fit correctly - it was too wide.
+  On the other hand, the canopy was too narrow.  So apparently I got the front of the
+  fuselage too close together and the fuselage around the cockpit not close enough.
+</p>
+<p>
+  As with {{f.linkTo('the Fw 190D-9','../0801/')}}, I primed with Dupli-Color White
+  primer.  The {{f.rlm('76')}} on the bottom was my usual mix of {{f.txf('23:1')}} and
+  {{f.txf('2:1')}}.  The top was {{f.txf('54')}} for the {{f.rlm('75')}} and Tamiya's
+  recommended mix of {{f.txf('24:3')}} and {{f.txf('27:2')}} for the {{f.rlm('74')}}.
+  I gloss coated with Quick Shine.  The decals came from the kit.  The post-decal
+  gloss coat was Krylon Gloss Acrylic Crystal Clear - I was getting lazy at that point.
+</p>
+<p>
+  I started to make my own mask for the canopy, but got impatient and just went with
+  the EZ mask for the windscreen.  I masked the canopy and rear section manually by
+  putting down masking tape, using a toothpick to press the tape into the part where
+  the frame meets the canopy, and then using a razor blade to cut the tape.
+</p>
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{% endblock %}
