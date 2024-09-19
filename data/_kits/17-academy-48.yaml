@@ -8,3 +8,10 @@ ACA2155:
     boxart: '48/Academy/2155-800.jpg'
     scalematesId: 'academy-minicraft-2155-republic-p-47n-thunderbolt--1162259'
 
+ACA2211:
+    brand: Academy
+    number: '2211'
+    name: 'P-47D "Nose Art"'
+    scale: '1/48'
+    boxart: '48/Academy/2211-800.jpg'
+    scalematesId: 'academy-2211-p-47d-nose-art--107449'
