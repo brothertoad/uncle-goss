@@ -1,0 +1,50 @@
+---
+kit: MONO7914
+---
+{% extends "layouts/build.html.j2" %}
+{% block buildblock %}
+{% import "layouts/macros.html.j2" as m %}
+{% import "layouts/filters.html.j2" as f %}
+
+<p>
+  I now have a car in my display case!
+</p>
+<p>
+  I picked up this kit from a well-known auction site a long time ago, probably more
+  than ten years.  I remembered this kit from my childhood, and decided to hunt one
+  down.  I don't remember if I actually built one as a kid, as even then I didn't
+  build many cars, preferring military subjects.  Definitely a different process than
+  building airplanes - for one thing, nearly everything was painted before assembly,
+  and then glued together with CA glue.
+  This was also a rather simple kit.  I have some Tamiya cars
+  in the stash, and they seem quite a bit more complex.
+</p>
+<p>
+  The instructions only list four colors: flat black, black (presumably gloss), bright
+  red, and dark tan.  The exterior color is not mentioned, as the non-chromed parts
+  are molded in bright green, and the kit was targeted at kids, who would be expected
+  to leave the body unpainted.
+</p>
+<p>
+  I started by removing the chrome plating from the sprue that had it, by soaking it
+  in Simple Green concentrate overnight.  After removing the parts from the sprue and
+  cleaning them up, I sprayed them with Model Master Enamel Chrome Silver.  I used
+  Flat Black from the same line for the exhaust, interior and the other black parts.
+  The engine block was painted Flat Cherry from Testor's, in the {{f.nowrap('1/4')}}
+  ounce jar.
+</p>
+<p>
+  I didn't want to leave the body unpainted, so I had to decide what color to use.
+  Recalling that Kawasaki motorcycles are often a light green that looked right, I
+  checked the instructions for a Tamiya Kawasaki kit and found they listed
+  {{f.tx('15')}} Light Green as the appropriate color, so that is what I used.  I
+  thought it turned out well.  The red at the front was AMMO 0121 Blood Red.
+</p>
+<p>
+  I did not apply any of the decals.  There aren't many, but I was not sure how to
+  apply a gloss coat over them, without some awkward masking, so I chickened out.
+</p>
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}
+{% endblock %}
