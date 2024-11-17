@@ -1,0 +1,33 @@
+---
+kit: TAM35215
+---
+{% extends "layouts/build.html.j2" %}
+{% block buildblock %}
+{% import "layouts/macros.html.j2" as m %}
+{% import "layouts/filters.html.j2" as f %}
+
+<p>
+  My first completion in a couple of months.  I expected to finish this build last
+  month, but I got sick, and that threw me off.
+</p>
+<p>
+  Nothing special to note about the build - it went together as well as you expect
+  from a modern Tamiya kit.  On this build, I left off the accessories (tools, jack, etc.)
+  until after painting was complete.  That did make it easier to paint the accessories.
+</p>
+<p>
+  Since I wasn't going to be masking anthing, I used {{f.nowrap('Mr. Surfacer')}} 1200 as a primer.
+  I have had this paint chip in the past, so I only use it on builds without masking.
+  The base coat was {{f.txf('60')}} Dark Yellow, and the disruptive camouflage was
+  {{f.txf('5')}} Flat Green.  I have used {{f.txf('26')}} Deep Green before, and both
+  look good.  The tires were Vallejo Model Color {{f.nowrap('70.862')}} Black Grey, and
+  the treads were painted {{f.tlp('40')}} Metallic Black from Tamiya's new lacquer line.  This was the
+  first time I've used this paint on a build (I've done some testing on scrap plastic),
+  and it sprayed very well.  This particular color is a gloss, which I really didn't think
+  about before using it.  It was quite glossy, so this line of paint would probably work
+  well on a car model.
+</p>
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}
+{% endblock %}

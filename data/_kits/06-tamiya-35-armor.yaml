@@ -64,6 +64,14 @@ TAM35176:
     boxart: '35/Tamiya/35176-800.jpg'
     scalematesId: 'tamiya-35176-panther-type-g-late-version--132722'
 
+TAM35215:
+    brand: Tamiya
+    number: '35215'
+    name: 'Panzerkampfwagen III Ausf. L'
+    scale: '1/35'
+    boxart: '35/Tamiya/35215-800.jpg'
+    scalematesId: 'tamiya-35215-panzerkampfwagen-iii-ausf-l--103419'
+
 TAM35250:
     brand: Tamiya
     number: '35250'
