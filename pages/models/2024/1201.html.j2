@@ -1,0 +1,39 @@
+---
+kit: ACA12280
+---
+{% extends "layouts/build.html.j2" %}
+{% block buildblock %}
+{% import "layouts/macros.html.j2" as m %}
+{% import "layouts/filters.html.j2" as f %}
+
+<p>
+  According to {{f.linkTo('Scalemates', 'https://www.scalemates.com/')}}, this kit
+  was originally produced by Hobbycraft.  Also according to Scalemates, this same kit
+  has been labelled Tomahawk rather than "Flying Tigers", but with the same
+  box art and kit number.
+</p>
+<p>
+  The kit went together pretty well, although there really wasn't any support for the
+  cockpit, so I had to use epoxy to make sure it would stay put.  (I do this quite often.)
+  I had to drill holes for the (two part) gunsight that sits in front of the cockpit.
+</p>
+<p>
+  Having bad experiences with Academy decals in the past, I used aftermarket ones on this,
+  namely {{f.linkTo('Tigerhead decals', 'http://www.tigerheaddecals.com/')}} 48001
+  Allied Fighters under the Turkish Flag - {{f.nowrap('P-40s')}}.  There were several
+  {{f.nowrap('P-40')}} schemes on the sheet.  I chickened out and chose the simplest:
+  RAF Dark Green over Sky Blue.  I assumed the Sky Blue would be RAF Azure Blue, so I
+  used Model Master Enamel Azure Blue.  For the top, I used Floquil Pullman Green.
+  Pullman Green has been recommended as a good match for {{f.rlm('71')}}, and
+  I think {{f.rlm('71')}} is pretty close to RAF Dark Green.  At any rate, it was
+  good enough for me.  I used nearly all enamels on this one.  The only exceptions being
+  the propellor blades (Tamiya Flat Black) and the tires (Polly Scale Grimy Black).
+</p>
+The decals went on very well.  I used Quick Shine as both a pre-decal gloss coat and
+as a decal setter.  I used EZ Mask set 24 to mask the canopy, which worked pretty well.
+<p>
+</p>
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}
+{% endblock %}

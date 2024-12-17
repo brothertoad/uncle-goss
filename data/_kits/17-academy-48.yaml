@@ -15,3 +15,11 @@ ACA2211:
     scale: '1/48'
     boxart: '48/Academy/2211-800.jpg'
     scalematesId: 'academy-2211-p-47d-nose-art--107449'
+
+ACA12280:
+    brand: Academy
+    number: '12280'
+    name: 'P-40C "Flying Tigers"'
+    scale: '1/48'
+    boxart: '48/Academy/12280-800.jpg'
+    scalematesId: 'academy-12280-p-40c-tomahawk--264325'
