@@ -8,6 +8,14 @@ ARIIA325:
     boxart: '48/Arii/Ki100-800.jpg'
     scalematesId: 'arii-a325-600-kawasaki-ki-100-tony--114118'
 
+ARIIA327:
+    brand: Arii
+    number: 'A327'
+    name: 'Nakajima Ki84 "Hayate" (Frank)'
+    scale: '1/48'
+    boxart: '48/Arii/Ki84-800.jpg'
+    scalematesId: 'arii-a327-600-nakajima-type-4-fighter-ki-84-hayate-frank--264932'
+
 ARIIA328:
     brand: Arii
     number: 'A328'
@@ -31,4 +39,3 @@ ARIIA334:
     scale: '1/48'
     boxart: '48/Arii/Bf-109G-6-800.jpg'
     scalematesId: 'arii-a334-800-messerschmitt-bf109g--313633'
-

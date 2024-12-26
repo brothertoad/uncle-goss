@@ -1,0 +1,44 @@
+---
+kit: ARIIA327
+---
+{% extends "layouts/build.html.j2" %}
+{% block buildblock %}
+{% import "layouts/macros.html.j2" as m %}
+{% import "layouts/filters.html.j2" as f %}
+
+<p>
+  Another build rescued from the shelf of doom (SOD).  I think I started this one earlier
+  in the year, and got frustrated with it.  As is often the case, when I revisited
+  it, I thought, "This isn't that bad."
+</p>
+<p>
+  The airframe was already assembled when I retrieved the kit from the SOD, but there
+  were some gaps around the cowling.  If memory serves, I think the poor
+  fit of the cowling was what sent this build to the SOD in the first place.  I
+  applied a little putty, did a little sanding, and found the result satisfactory,
+  at least for me.
+</p>
+<p>
+  The decals weren't that great, but I have some left over decals from the Tamiya
+  kit, having FUBARed that one a couple of times.  I also have some aftermarket sheets.
+  I chose a subject from Aeromaster {{f.nowrap('48-623')}} "Imperial Hayates"
+  Pt. III.  Like most Japanese Army planes, it had a pretty simple paint job: light
+  grey on the bottom and dark green on the top, with a black anti-glare panel.
+  After priming with Tamiya Grey Primer (from the 40 mL bottle), I used {{f.txf('14')}}
+  JA Grey on the bottom.  For the top, I used {{f.txf('67')}} NATO Green.  I would
+  usually use {{f.txf('13')}} JA Green, but I saw a sample of Nakajima Army Green
+  somewhere, and it seemed a touch lighter.  The anti-glare panel was
+  {{f.tx(18)}} Semi Gloss Black.
+</p>
+  The insignia came from one of the left over Tamiya sheets.  The white stripe and
+  the tail markings came from the Aeromaster sheet.  These all went on well, using
+  Quick Shine as  a decal setter.  The front of the windscreen was masked using
+  the Black Magic set (CEBM48234), which I picked up some time ago (obviously, as
+  Black Magic is not around anymore).  The rest of the canopy was masked by hand,
+  which shows!
+<p>
+</p>
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}
+{% endblock %}
