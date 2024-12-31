@@ -1,0 +1,28 @@
+---
+kit: HC1522
+---
+{% extends "layouts/build.html.j2" %}
+{% block buildblock %}
+{% import "layouts/macros.html.j2" as m %}
+{% import "layouts/filters.html.j2" as f %}
+
+<p>
+  This is my second build of this kit.  I can't remember what made me pull this one
+  from the stash - perhaps that I had quite a few aftermarket {{f.nowrap('G-10')}}
+  sheets.
+</p>
+<p>
+  I could not get the fuselage to fit together.  This is not unusual for me, so it
+  was probably me and not the kit.  There were large gaps at the top of the rear
+  fuselage and also under the cowling.
+</p>
+<p>
+  The decals came from EagleCals 15.  This plane had a simple {{f.rlm('74/75')}}
+  over {{f.rlm('76')}} scheme.  I used my {{f.txf('23:1')}} and {{f.txf('2')}} mix
+  for the {{f.rlm(76)}}, {{f.txf('54')}} for the {{f.rlm('75')}} and Tamiya's mix
+  for the {{f.rlm('74')}} ({{f.txf('24:3')}} and {{f.txf('27:2')}}).
+</p>
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}
+{% endblock %}
