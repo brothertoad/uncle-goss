@@ -1,0 +1,43 @@
+---
+kit: HAS52104
+---
+{% extends "layouts/build.html.j2" %}
+{% block buildblock %}
+{% import "layouts/macros.html.j2" as m %}
+{% import "layouts/filters.html.j2" as f %}
+
+<p>
+  Here is another P-40, hot on the heels of last month's {{f.linkTo('P-40C','../../2024/1201/')}}.
+  This is the 'Prisoner of War' boxing of Hasegawa's P-40E Warhawk.  In addition to the
+  decals representing a captured aircraft, the kit also included the decals from
+  the Aleutian Tiger boxing (kit 09789), as well as a photocopy of the placement
+  instructions, and I decided to use those instead, and to save
+  the captured decals for another build.
+</p>
+<p>
+  Hasegawa's P-40 series has a couple of inserts to represent multiple variants, so I
+  attached those to the fuselage halves before putting the fuselage halves together.
+  That worked well.
+</p>
+<p>
+	The bottom is {{f.txf('53')}} Neutral Grey.  It went on very rough.
+  According to {{f.linkTo("Tom Cleaver's build",'https://www.modelingmadness.com/review/allies/cleaver/us/tmcp40e.htm')}}
+  of an Aleutian Tiger in 1/32 scale, the olive drab on the top should have more green
+  than the usual, so I used {{f.txf('58')}} Olive Green.  I used Eduard's EX058 mask on the
+  canopy; it fit well.
+</p>
+<p>
+	I have an aftermarket set of decals that also represents an Aleutian Tiger, but I
+	decided to use the kit decals instead.  I had lots of trouble with them.  I had to
+	use very hot water, and had to let the decals soak for a long time to get them to work.
+	I also had lots of silvering, but to be fair that was due to my poor painting.
+	The decals also wrinkled heavily.
+</p>
+<p>
+	I gave serious thought to tossing this build in the trash after taking the
+	photos below, but for now it sits on the shelf.
+</p>
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}
+{% endblock %}

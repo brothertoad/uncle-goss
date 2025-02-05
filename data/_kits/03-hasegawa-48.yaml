@@ -16,6 +16,14 @@ HAS51510:
     boxart: '48/Hasegawa/SP10-800.jpg'
     scalematesId: 'hasegawa-51510-zero-fighter-type-52--141162'
 
+HAS52104:
+    brand: Hasegawa
+    number: '52104/SP304'
+    name: "P-40E Warhawk 'Prisoner of War'"
+    scale: '1/48'
+    boxart: '48/Hasegawa/SP304-800.jpg'
+    scalematesId: 'hasegawa-52104-p-40e-warhawk-prisoner-war--241427'
+
 HAS52207:
     brand: Hasegawa
     number: '52207/SP407'
