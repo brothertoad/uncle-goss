@@ -1,0 +1,60 @@
+---
+kit: TAM61041
+---
+{% extends "layouts/build.html.j2" %}
+{% block buildblock %}
+{% import "layouts/macros.html.j2" as m %}
+{% import "layouts/filters.html.j2" as f %}
+
+<p>
+  Even after almost twenty years back at this hobby, often the simplest tasks seem to
+  frustrate me.  As with {{f.linkTo('my last build','../0101/')}}, when I airbrush, the
+  surface ends up being very rough - almost like sandpaper.  I made a list of things to
+  try to get better results, and decided to buy some kits that I knew I could build without
+  much trouble to run some tests.  This build was the first such test.
+</p>
+<p>
+  One of the reasons I chose this kit is that I have several aftermarket decals for
+  the {{f.nowrap('Fw 190D-9')}}, so I wouldn't be limited to the options in the kit.  As it
+  happened, I used one of the options in the kit, but I painted it a bit differently than I
+  did {{f.linkTo('the first time','../../2014/0502/')}}.  This time, I used the kit painting
+  guide, so I did not paint the rudder or the area under the cowling {{f.rlm('04')}}.  Also,
+  the painting guide showed the complete top of the fuselage in one color (which I suspect is
+  incorrect).  At the very least, this allows me to tell the two builds apart when I look at
+  the kits on the shelf.
+</p>
+<p>
+	I primed with {{f.nowrap('Mr. Surfacer')}} 1200.  I have had a couple of instances where
+  this has peeled off with masking, but I felt comfortable using it here, since I knew I
+  would be painting freehand.
+  The bottom is my mix for {{f.rlm('76')}}, which is equal parts {{f.txf('23')}} and
+  {{f.txf('2')}}.  The top is AMMO 0003 Reseda Green for the light green and
+  {{f.txf('51')}} Khaki Drab for the dark green.  I think the Reseda Green was a bit too
+  light.  I recall seeing a build of a {{f.nowrap('Do 335')}} that used {{f.txf('5')}}
+  instead.  I may try that next time, perhaps using {{f.txf('61')}} Dark Green
+  instead of {{f.txf('51')}}.
+</p>
+<p>
+  One of the things I wanted to try was to use a siphon feed airbrush.
+  Some of my earliest models had smooth coats of paint, and I recalled that I used a
+  Badger Anthem airbrush back then, and it occurred to me that maybe a siphon feed was
+  more my style than a gravity feed (which is what I usually use).  I initially used
+  that here, but did not see a great improvement.
+</p>
+<p>
+	After painting, I wanted to try a different clear coat, so I used Krylon 51301 Gloss
+  Acrylic Crystal Clear.  I hadd tried a sample of this and thought the result was good.
+  However, when I tried it on this kit, it left a heavy white residue.  I may not have
+  shaken the can sufficiently, as I never did hear the rattling ball that is present in
+  most spray paints.  I was very disheartened, and almost tossed the kit right then.
+  After cooling off, I decided to try sanding it with a 1500 grit sanding pad.  It was
+  very smooth after that, but discolored.  I repainted the top, but this time, I went
+  back to my usual gravity feed airbrush, but used CO<sub>2</sub> as a propellant.  The results
+  were much better in terms of smoothness, but the discoloration showed through (and shows
+  on the finished model).  The photos don't show the discoloration on the wings, but it
+  is quite clear on the fuselage.
+</p>
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}
+{% endblock %}
