@@ -1,0 +1,46 @@
+---
+kit: HAS09138
+---
+{% extends "layouts/build.html.j2" %}
+{% block buildblock %}
+{% import "layouts/macros.html.j2" as m %}
+{% import "layouts/filters.html.j2" as f %}
+
+<p>
+  The {{f.linkTo('first time I built this kit','../../2020/0302/')}}, I ran into some problems, and
+  thought the build as FUBAR.  While that was going on, I was at a model swap meet and ran across
+  the kit for sale.  It had been started, but it looked like I could use the parts to fix my build.
+  As it happens, I was able to resolve my issues without using this kit, so it went on the SOD.
+  Since I had already built this kit, and there really isn't much reason to build it more than once,
+  I decided to use this build as a test case for some of the techniques I wanted to try.
+</p>
+<p>
+  I decided to use Lifelike decals 48-005 244th Sentai Part 3, which featured a Ki-100 along
+  with several Ki-61's.  I primed with Ace Hardware White Primer, from a spray can.  The bottom
+  was Rustoleum 7715 Aluminum.  I had painted a sample of this on a small PVC card, and it looked
+  good, but on the kit it was very shiny, almost chrome-like.  The green on top was {{f.txf('51')}}
+  Khaki Drab, thinned with Quick Shine.  This was one of the techniques that I had wanted to try,
+  and it worked very well.  Also, I had struggled a bit decided which color to use on the top,
+  and was rather gratified to see that the Khaki Drab was a close match to the Kawasaki Green
+  that I used on my previous build of this subject.
+</p>
+<p>
+	Scott Van Aken build this same kit, and used the Lifelife decals for
+  {{f.linkTo('his review','https://www.modelingmadness.com/scott/axis/j/jaaf/48ki100.htm')}} on Modeling Madness.
+  He had issues with the Lifelife decals, as I did the first time I used them.  As such, I
+  decided to use the kit decals as much as I could, which meant the insignias.  However,
+  I only used the kit decals on the bottom of the wings.  Getting the decals off the sheet was
+  quit a chore and I decided to risk it with the Lifelife decals for the other insignia.  I was
+  careful, and was able to get reasonable results, but only after I learned to only use water,
+  not any kind of setting solution.  Using a setting solution meant the decal was very difficult to
+  move once on the model.  Also, the stars on the left side of the fin folded over, and I was
+  unable to straighten them out.
+</p>
+<p>
+  One new technique was using Micro Flat for the final flat coat.  I sprayed it straight
+  from the bottle, and was pleased with the result.
+</p>
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}
+{% endblock %}

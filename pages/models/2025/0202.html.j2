@@ -1,0 +1,40 @@
+---
+kit: OT227
+---
+{% extends "layouts/build.html.j2" %}
+{% block buildblock %}
+{% import "layouts/macros.html.j2" as m %}
+{% import "layouts/filters.html.j2" as f %}
+
+<p>
+  As I mentioned last month, I often struggle with the most basic of modeling tasks, so
+  I decided to build a kit that I built at the beginning of my modeling journey, in order
+  to see how much (or even if) I have progressed.  I first built the Otaki Corsair in
+  {{f.linkTo('December of 2007','../../2007/1201/')}}.  I picked up another one (two actually,
+  since the kit comes with Royal Navy and New Zealand markings), to see how this build would
+  compare to the first.
+</p>
+<p>
+  The kit goes together reasonably well - I don't recall any major difficulties, and for me,
+  that's saying a lot.  Unlike the Tamiya kit, it does not have folding wings, which simplifies
+  things tremendously.  As I knew I would be freehanding the exterior - i.e., not masking anthing -
+  I used {{f.nowrap('Mr. Surfacer')}} 1200 to prime.  The bottom is {{f.txf('2')}} Flat White,
+  the Intermediate Blue is AMMO 0228 FS35164 ANA608, and the Sea Blue is {{f.txf('17')}} Sea Blue.
+  As it turns out, I did have to do some masking on the bottom, where the outer segment (representing
+  the part that folds up) was painted Intermediate Blue, but I didn't have any problems.
+</p>
+<p>
+	The Otaki kit comes with three decal options, a US subject, a New Zealand subject and a Royal
+  Navy (UK) subject.  The US subject is also offered in the Tamiya kit, and as I had a set of left-over
+  decals from that kit, I used them here.  The surface was a little rough, but not as rough as some
+  of my paint jobs.  I used very hot water, but was able to apply the decals without any setting or
+  softening solution.
+</p>
+<p>
+  Overall, this did turn out better than the first time.  Maybe I have learned something in seventeen
+  years.
+</p>
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}
+{% endblock %}
