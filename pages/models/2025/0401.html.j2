@@ -1,0 +1,31 @@
+---
+kit: TAM61037
+---
+{% extends "layouts/build.html.j2" %}
+{% block buildblock %}
+{% import "layouts/macros.html.j2" as m %}
+{% import "layouts/filters.html.j2" as f %}
+
+<p>
+  This was another build to try out a technique or two.  I like using Focke-Wulfs for this purpose
+  because they're simple to build, I have a lot of aftermarket decals for them and the canopy is easy to mask.
+</p>
+<p>
+  The first technique was to use nothing but water-based paints on the exterior.  The yellow under the
+  cowling and on the rudder was AMMO 0125 Gold Yellow ({{f.rlm('04')}}).  That was masked (that was actually the
+  only masking done on the exterior, save for the canopy), and then Model Air {{f.nowrap(71.257)}}
+  {{f.rlm('76')}} was sprayed on the bottom.  On the top, AMMO {{f.rlm('75')}} and {{f.rlm('74')}} were used.
+  I was not pleased with the {{f.rlm('74')}} - it seemed much too light.  Interestingly enough, even though the
+  hues are quite different, the demarcation between the two colors is not visually obvious.
+</p>
+<p>
+	The second technique was to try Micro Gloss for the pre-decal gloss coat.  I was not pleased with this at all.
+  I could barely see any difference when I sprayed it, so I had to cover it with my standby, Quick Shine.
+  The decals came from Aeromaster {{f.nowrap('48-138')}} Early Butcher Birds Part 1.  I used Micro Flat for the
+  post-decal flat coat, as I did with the {{f.linkTo('Ki-100', '../0301/')}}, and again it worked well.  I
+  actually ordered a second bottle, as it is now my go-to for flat coats.
+</p>
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}
+{% endblock %}
