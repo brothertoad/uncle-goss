@@ -1,0 +1,31 @@
+---
+kit: MENGWWT009
+---
+{% extends "layouts/build.html.j2" %}
+{% block buildblock %}
+{% import "layouts/macros.html.j2" as m %}
+{% import "layouts/filters.html.j2" as f %}
+
+<p>
+  My mojo has been very off the last couple of months.  I tried to build a car (the Monogram Black Widow Hot Rod)
+  and a tank (Tamiya 1/35 Tiger I), and ended up scrapping both of them, as I got too frustrated.  I picked this
+  one out of the stash, hoping for a quick build that would get my juices running again.  It did the trick.
+</p>
+<p>
+  Assembly was rather straightforward, as expected.  I glued many of the parts, even though the kit is not intended
+  to be glued.  There are two decals options - the German (captured) subject on the box art, and a French version.
+  I chose the French version, since the camouflage was a bit more interesting than the German version (which was
+  solid gray).
+</p>
+<p>
+	I primed with Krylon Colormaxx gray primer.  I spray Tamiya {{f.txf('57')}} Buff around the turret - it was darker
+  than I would have preferred, but shows up OK in the photos.  I used AMMO 0074 Green Moss for the green, and 0034
+  Rust Tracks for the dark brown.
+  The green on the hull was airbrushed, but the green on the turret was hand painted to get a sharp demarcation.
+  The brown on both turret and hull was hand brushed for the same reason.  Gloss coat was Quick Shine, final flat
+  coat was Micro Flat.
+</p>
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}
+{% endblock %}

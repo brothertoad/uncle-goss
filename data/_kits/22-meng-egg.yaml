@@ -32,6 +32,14 @@ MENGWWT006:
     boxart: 'other/Meng-WWT-006-800.jpg'
     scalematesId: 'meng-model-wwt-006-t-34-76--1097593'
 
+MENGWWT009:
+    brand: Meng
+    number: 'WWT-009'
+    name: 'French Medium Tank Somua S35'
+    scale: ''
+    boxart: 'other/Meng-WWT-009-800.jpg'
+    scalematesId: 'meng-model-wwt-009-somua-s35--1138260'
+
 MENGWWT010:
     brand: Meng
     number: 'WWT-010'
