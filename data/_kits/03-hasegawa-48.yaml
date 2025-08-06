@@ -202,6 +202,14 @@ HAS09144:
     boxart: '48/Hasegawa/09144-800.jpg'
     scalematesId: 'hasegawa-09144-kawasaki-ki-100-koh-tony-fastback--143657'
 
+HAS09146:
+    brand: Hasegawa
+    number: '09146/Jt46'
+    name: "Mitsubishi J2M6 Raiden (Jack) Type 31"
+    scale: '1/48'
+    boxart: '48/Hasegawa/09146-800.jpg'
+    scalematesId: 'hasegawa-09146-mitsubishi-j2m6-raiden-jack-type-31--178434'
+
 HAS09147:
     brand: Hasegawa
     number: '09147/Jt47'
