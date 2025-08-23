@@ -16,6 +16,14 @@ MONO5258:
     boxart: '48/Monogram/5258-800.jpg'
     scalematesId: 'monogram-85-5258-hawker-typhoon-mk-ib--193477'
 
+MONO5209:
+    brand: Monogram
+    number: '5209'
+    name: 'P-40B Tiger Shark'
+    scale: '1/48'
+    boxart: '48/Monogram/5209-800.jpg'
+    scalematesId: 'monogram-5209-p-40b-tiger-shark--354303'
+
 MONO5487:
     brand: Monogram
     number: '5487'
