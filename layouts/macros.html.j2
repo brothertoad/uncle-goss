@@ -1,7 +1,7 @@
 
 {% macro buildPhotoLink(path, number) %}
   {% set imagePath = (path|slice("7:16")) ~ "-" ~ number ~ "-1000.jpg" %}
-  {% set url = "https://d1dems3vhrlf9r.cloudfront.net/images/builds/" ~ imagePath %}
+  {% set url = cloudfront.prefix ~ "/images/builds/" ~ imagePath %}
   <p>
     <img src="{{url}}" class="build-photo">
   </p>
