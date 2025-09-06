@@ -19,8 +19,8 @@ banner: Uncle Uncool
   probably seen some fantastic work.  I know I have.  Sorry to say, you won't
   see anything like that here.  Although I'm a very enthusiastic
   modeler, and enjoy it tremendously, I'll be the first to admit that
-  I'm not all that great at it, even after fourteen years back at it as of
-  this writing.  I am also a very casual modeler.  It is rare that I do
+  I'm not all that great at it, even after almost twenty years back at it.
+  I am also a very casual modeler.  It is rare that I do
   any more research into a subject than reading the kit instructions,
   and I still haven't tried to weather any of my airplanes (although I
   do attempt to weather my armor builds).
@@ -31,10 +31,12 @@ banner: Uncle Uncool
 <p>
   Here are some photos of my work area.
 </p>
+{% set target1 = cloudfront.prefix ~ "/images/workbench/2021-01-12/01-1000.jpg" %}
+{% set target2 = cloudfront.prefix ~ "/images/workbench/2021-01-12/02-1000.jpg" %}
 <p>
-  <img src="https://d1dems3vhrlf9r.cloudfront.net/images/workbench/2021-01-12/01-1000.jpg" class="build-photo">
+  <img src="{{target1}}" class="build-photo">
 </p>
 <p>
-  <img src="https://d1dems3vhrlf9r.cloudfront.net/images/workbench/2021-01-12/02-1000.jpg" class="build-photo">
+  <img src="{{target2}}" class="build-photo">
 </p>
 {% endblock %}

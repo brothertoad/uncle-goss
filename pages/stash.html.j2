@@ -13,7 +13,7 @@ banner: The Stash
   to sell.
 </p>
 {%- macro buildPhoto(prefix) -%}
-{% set target = "https://d1dems3vhrlf9r.cloudfront.net/images/stash-2021-04-10/" ~ prefix ~ "-1000.jpg" %}
+{% set target = cloudfront.prefix ~ "/images/stash-2021-04-10/" ~ prefix ~ "-1000.jpg" %}
 <img src="{{ target }}" class="build-photo">
 {%- endmacro -%}
 {% for image in [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 ] %}
