@@ -15,3 +15,4 @@
 
 {%- macro linkTo(text,url) -%}<a href="{{url}}">{{text}}</a>{%- endmacro -%}
 {%- macro embeddedLinkTo(text,url) -%}<a class="embedded-link" href="{{url}}">{{text}}</a>{%- endmacro -%}
+{%- macro linkToMask(text,mask) -%}<a href="{{cloudfront.prefix ~ "/masks/" ~ mask}}">{{text}}</a>{%- endmacro -%}
