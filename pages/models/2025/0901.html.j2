@@ -1,0 +1,50 @@
+---
+kit: TAM61041
+---
+{% extends "layouts/build.html.j2" %}
+{% block buildblock %}
+{% import "layouts/macros.html.j2" as m %}
+{% import "layouts/filters.html.j2" as f %}
+
+<p>
+  Another kit that was purchased to try some new techniques.
+</p>
+<p>
+  I have built this kit four times before, but have not done "Blue 15" before, so I decided to go with that option.
+</p>
+<p>
+	The spinner and propellor were primed with Krylon Colormaxx Gray Primer from a rattle can.  The spinner was painted
+  with Tamiya {{ f.txf('1') }} Flat Black, thinned with Quick Shine.  This was one of the techniques I wanted to try.
+  It turned out well.  I think I used {{ f.txf('27') }} Black Green for the propellor blades, but I did not make a note,
+  so I can't be sure.
+</p>
+<p>
+  The main airframe was primed with Dupli-Color white primer, which went on well.  The {{ f.rlm('76') }} was my Tamiya mix,
+  which is equal parts {{ f.txf('23') }} and {{ f.txf('2') }}.  The top colors were {{ f.txf('54') }} for the {{ f.rlm('75') }} and
+  {{ f.txf('61') }} for the {{ f.rlm('83') }}.  All three of these were thinned with {{ f.nowrap('91%') }} alcohol.  I've
+  thinned with alcohol before, and it has worked fine on small areas, but usually turned out very rough on large areas.
+  This time, I tried to stay close the surface, and it turned out much better.
+</p>
+<p>
+  Another new technique - or rather, one I haven't tried for a while - was to use rattle can clear.  I used Krylon 51301
+  Gloss Acrylic Crystal Clear.  Other than taking longer than I'm used to to dry, it worked well and left a nice, shiny
+  finish.  Another thing I did that I haven't done in a while was to use Mr. Mark Setter to set the decals.  In the past,
+  this has left a white residue on the kit.  This time, it didn't, and it set the decals nicely.  I'm thinking that the
+  reason it left residue in the past was because the surface wasn't glossy enough.  I did have a problem with the bands
+  on the fuselage - the decal broke at the top (which is most visible in the third photo).
+  One drawback to the fact that the gloss coat worked so well is that it took more than the usual flat coat - AMMO Lucky
+  Matte - to remove the sheen.
+</p>
+<p>
+  As much as I like the 190, I always have trouble getting the landing gear right, and this build was no exception.
+  Although not as bad as some of my builds, the starboard side is a bit lower than the port side.
+</p>
+<p>
+  I created a mask for the canopy.  The SVG file can be downloaded
+  from {{f.linkToMask('here', '48-Tamiya-Fw-190.svg')}}).
+  It includes both flat and blown canopies.
+</p>
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}
+{% endblock %}
