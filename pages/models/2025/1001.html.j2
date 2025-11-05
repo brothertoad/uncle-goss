@@ -1,0 +1,41 @@
+---
+kit: HASJ001
+---
+{% extends "layouts/build.html.j2" %}
+{% block buildblock %}
+{% import "layouts/macros.html.j2" as m %}
+{% import "layouts/filters.html.j2" as f %}
+
+<p>
+  I have built this kit {{f.linkTo('once before','../../2008/0501/')}}, a number of years ago.  It apparently has some
+  inaccuracies, which Hasegawa corrected in the Jt series of Emils.  As with several of my past builds, I wanted to try
+  something new on this one.
+</p>
+<p>
+  There weren't any problems with the build - it went together nicely.  What I decided to do differently this time was to
+  use Krylon Fusion Matte Glacier Gray as a primer.  It went on well, but chipped in a couple of places when I lifted
+  the masking tape.  I suppose it could have been due to not cleaning the kit before applying the primer, but even so I
+  will not be using the Matte paint as a primer again.  I do have a can of Fusion Flat White, which I plan on trying out soon.
+</p>
+<p>
+	The {{f.rlm('65')}} is a Tamiya mix - I think it is what Tamiya recommends, {{f.txf('23:2')}} + {{f.txf('2:1')}} (per the kit
+  instructions for Tamiya's own {{f.nowrap('E-3')}}).  I made this mix quite a while ago and did not record the ratios.  The
+  {{f.rlm('02')}} and {{f.rlm('71')}} on the upper side are AMMO.  I had a hard time mixing the {{f.rlm('02')}}, as it must have
+  been sitting for a long time.
+</p>
+<p>
+  The decals are from the kit.  As with {{f.linkTo('my previous build','../0901/')}},
+  I used Mr. Mark Setter to set them.  It worked well.
+<p>
+  Again, I created a mask for the canopy.  The SVG file can be downloaded
+  from {{f.linkToMask('here', '48-Hasegawa-Bf-109E-3.svg')}}).
+  The mask is not complete - it leaves the top area of the rear section uncovered.  I did that part by hand.  Also, the
+  section above the windscreen did not fit, so I did that part by hand also.  I plan to improve the mask on the next
+  {{f.nowrap('E-3')}} I build.  The canopy did not sit well - apparently, I did not get the instrument panel in the right place.
+  It is supposed to sit under the cowling, but on this build it juts out and interferes with the windscreen.  I looked at my
+  previous build, and I had the same problem there.
+</p>
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}
+{% endblock %}

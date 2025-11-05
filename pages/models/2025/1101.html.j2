@@ -1,0 +1,46 @@
+---
+kit: HAS09080
+---
+{% extends "layouts/build.html.j2" %}
+{% block buildblock %}
+{% import "layouts/macros.html.j2" as m %}
+{% import "layouts/filters.html.j2" as f %}
+
+<p>
+  This build is of another kit that I have {{f.linkTo('built before','../../2015/0601/')}}.  I had Bestfong decal sheet
+  48053 &ldquo;{{f.nowrap('Ki-43 I/II')}} in foreign service&rdquo; in my decal stash, and one of the subjects is a captured
+  {{f.nowrap('Ki43-I')}}.  That's what this build represents.
+</p>
+<p>
+  The kit went together very well - I had not trouble at all.  The only thing I recall being a little tricky was the engine.
+</p>
+<p>
+	The captured plane has a very simple paint scheme - a light grey on the bottom and a green on top.  The decal sheet gives a
+  mix for the grey: {{f.mrcolor('128')}} + {{f.mrcolor('115')}} + {{f.mrcolor('62')}}, in a {{f.nowrap('4:4:1')}} ratio, or,
+  alternatively, you can just use {{f.mrcolor('20')}}.  The {{f.nowrap('C-20')}} is just described as Light Blue.  I just
+  used {{f.txf('14')}} JA Grey, which is what I assume the aircraft would have been painted with before it was captured.  The top
+  is shown in the decal sheet as {{f.mrcolor('123')}}, which is {{f.rlm('83')}} Dark Green.  The image on the decal sheet shows
+  a lighter, more olive color, so I used my US armor Olive Drab mix: {{f.txf('62')}} and {{f.txf('57')}}.  Unfortunately, I did
+  not record the ratios.
+</p>
+<p>
+  I wanted to try thinning the Tamiya paint with lacquer thinner.  I've done this before, but never really made a note about
+  how well it worked.  The bottom was painted using hobby lacquer thinner (either Tamiya or Mr. Color Thinner, I'm not sure which).
+  It was a little rough.  I used Mr. Color Leveling Thinner on the top, and it worked better.
+</p>
+<p>
+  Although the decal sheet included decals for the stripes on the rudder, I decided to paint it.  The white was Tamiya White Primer,
+  in the {{f.nowrap('40 ml')}} bottle.  The blue was Model Color Flat Blue, thinned with Quick Shine.  I thought it would match
+  the decals, but it was not quite dark enough.
+</p>
+<p>
+  I think this was my first experience with Bestfong decals, and they worked well.  As is now my habit, I created a custom mask
+  for this kit, which can be downloaded from {{f.linkToMask('here', '48-Hasegawa-Ki-43-I.svg')}}).  Note that the rear section is
+  in three pieces: the two forward corners and the rear corner.  I cut strips of masking tape to connect the three pieces.  It fit
+  very well.  I was happy about this, as I have six more of these to build, from the Magnificent Kotobuki series that Hasegawa
+  released with Creator Works.
+</p>
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}
+{% endblock %}
