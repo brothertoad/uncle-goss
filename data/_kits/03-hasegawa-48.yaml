@@ -330,6 +330,14 @@ HAS09740:
     boxart: '48/Hasegawa/09740-800.jpg'
     scalematesId: 'hasegawa-09740-p-40n-warhawk-15-000th-anniversary--141185'
 
+HAS09773:
+    brand: Hasegawa
+    number: '09773'
+    name: "Nakajima Ki84 Type 4 Fighter Hayate (Frank) '22nd Flight Regiment'"
+    scale: '1/48'
+    boxart: '48/Hasegawa/09773-800.jpg'
+    scalematesId: 'hasegawa-09773-nakajima-ki84-type-4-fighter-hayate-frank-22nd-flight-regiment--931605'
+
 HAS09870:
     brand: Hasegawa
     number: '09870'
