@@ -218,6 +218,14 @@ HAS09147:
     boxart: '48/Hasegawa/09147-800.jpg'
     scalematesId: 'hasegawa-09147-messerschmitt-bf-109-g-6--143544'
 
+HAS09148:
+    brand: Hasegawa
+    number: '09148/Jt48'
+    name: 'Messerschmitt Bf 109G-10'
+    scale: '1/48'
+    boxart: '48/Hasegawa/09148-800.jpg'
+    scalematesId: 'hasegawa-09148-messerschmitt-bf109g-14--122688'
+
 HAS09178:
     brand: Hasegawa
     number: '09178/Jt118'
