@@ -1,5 +1,13 @@
 ### == Tamiya 1/48 aircraft
 
+TAM25205:
+    brand: Tamiya
+    number: '25205'
+    name: 'North American P-51D Mustang & 1/4 ton 4x4 Light Vehicle Set'
+    scale: '1/48'
+    boxart: '48/Tamiya/25205-800.jpg'
+    scalematesId: 'tamiya-25205-p-51d-mustang-and-1-4-ton-4x4-light-vehicle-set--1451197'
+
 TAM61013:
     brand: Tamiya
     number: '61013'

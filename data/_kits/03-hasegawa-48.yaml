@@ -90,6 +90,14 @@ HAS09013:
     boxart: '48/Hasegawa/09013-800.jpg'
     scalematesId: 'hasegawa-09013-messerschmitt-bf-109-g-2--166321'
 
+HAS09058:
+    brand: Hasegawa
+    number: '09058/Jt58'
+    name: 'P-47D Razorback "South Pacific Theater"'
+    scale: '1/48'
+    boxart: '48/Hasegawa/09058-800.jpg'
+    scalematesId: 'hasegawa-09058-p-47d-razorback-south-pacific-theatre--151103'
+
 HAS09063:
     brand: Hasegawa
     number: '09063/Jt63'

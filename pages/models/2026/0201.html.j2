@@ -1,0 +1,35 @@
+---
+kit: HAS09058
+---
+{% extends "layouts/build.html.j2" %}
+{% block buildblock %}
+{% import "layouts/macros.html.j2" as m %}
+{% import "layouts/filters.html.j2" as f %}
+
+<p>
+  This was another bagged kit that was part of a lot I bought from a guy on one of the forums.
+</p>
+<p>
+	Like most of my recent builds, I wanted to try something different with this kit.  I primed with Tamiya Grey Primer from the
+  40 ml jar, thinned with Mr. Color Leveling Thinner, which went on very well.  The {{f.rlm('04')}} yellow is AMMO Gold Yellow.
+  The bottom is my {{f.rlm('76')}} mix:
+  {{f.txf('23:1')}} and {{f.txf('2:1')}} and the top is straight {{f.txf('2')}}.  I thinned with 99% isopropyl alcohol,
+  rather than the 91% I usually use.  The bottom sprayed fine, but the top stayed sticky for over 24 hours, an experience I've
+  never had with Tamiya paint before.  I sprayed a second coat of {{f.txf('2')}} thinned with the usual 91% IPA, and it was fine.
+</p>
+<p>
+  I was going to use the kit decals, but they did not want to come off the sheet.  I had already painted the kit, so I had to find
+  an aftermarket set of the same subject.  Fortunately, the same subject is on EagleCals #36, listed as a {{f.nowrap('G-6')}}.
+  The decal notes say that this plane might have been a {{f.nowrap('G-14')}}.  I had to get one pair of insignia from Aeromaster
+  {{f.nowrap('48-020')}}.  I'm not sure if the insignia is 100% accurate.
+</p>
+<p>
+  I had some trouble applying the tulips around the nose.  They come in two pieces, white and black.  You apply the white ones, let
+  them dry, then put the black on top of them.  The trouble is, the black one should meet at the front, so the white ones need to
+  overlap a little bit.  I neglected to do this.  The kit decals don't have any white - which really didn't show up, since the top
+  is painted white anyway.  If I were to build this subject again, I probably won't bother to apply the white background.
+</p>
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}
+{% endblock %}
