@@ -1,0 +1,30 @@
+---
+kit: MENGWWP004
+---
+{% extends "layouts/build.html.j2" %}
+{% block buildblock %}
+{% import "layouts/macros.html.j2" as m %}
+{% import "layouts/filters.html.j2" as f %}
+
+<p>
+  This is one of those builds where I just wanted to finish something.  I have previously built
+  {{f.linkTo('the green version','../../2020/0601/')}}, which is kit number {{f.nowrap('WWT-004')}}.
+  This is kit {{f.nowrap('WWP-004')}} - presumably the P stands for pinky, as shown on the 
+  upper right corner of the box art.
+</p>
+<p>
+	It is intended to be assembled without glue, but I glued some of the joints anyway.  I was going to paint it
+  a kind of light aqua, similar to the original plastic color.  I even made a Tamiya mix of Flat White,
+  Clear Green and Clear Blue that matched quite closely.  Then I realized that the box art and the instructions
+  showed it in the same kind of green that actual Soviet tanks were painted in.  I used an old bottle of Polly Scale
+  British Interior Grey-Green.  It sprayed very rough, perhaps because I sprayed it straight from the bottle,
+  without thinning.  The box art shows the spare tracks the same color as the exterior, but I tried to paint
+  them the same yellow as the main tracks.  It took several coats, and even then the gray primer shows through.
+</p>
+<p>
+  The decals went on very easily.
+</p>
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}
+{% endblock %}

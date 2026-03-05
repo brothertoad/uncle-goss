@@ -1,5 +1,13 @@
 ### == Meng
 
+MENGWWP004:
+    brand: Meng
+    number: 'WWP-004'
+    name: 'KV-2'
+    scale: ''
+    boxart: 'other/Meng-WWP-004-800.jpg'
+    scalematesId: 'meng-model-wwp-004-kv-2--1151698'
+
 MENGWWT002:
     brand: Meng
     number: 'WWT-002'
