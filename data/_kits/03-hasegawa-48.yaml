@@ -154,6 +154,14 @@ HAS09080:
     boxart: '48/Hasegawa/09080-800.jpg'
     scalematesId: 'hasegawa-09080-nakajima-ki43-i-hayabusa-oscar--114359'
 
+HAS09082:
+    brand: Hasegawa
+    number: '09082/Jt82'
+    name: 'Nakajima Ki 43-II Late Version Hayabusa (Oscar)'
+    scale: '1/48'
+    boxart: '48/Hasegawa/09082-800.jpg'
+    scalematesId: 'hasegawa-09082-nakajima-ki43-ii-late-version-hayabusa-oscar--114505'
+
 HAS09090:
     brand: Hasegawa
     number: '09090/Jt90'
