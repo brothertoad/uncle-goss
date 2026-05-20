@@ -1,0 +1,35 @@
+---
+kit: HAS09013
+---
+{% extends "layouts/build.html.j2" %}
+{% block buildblock %}
+{% import "layouts/macros.html.j2" as m %}
+{% import "layouts/filters.html.j2" as f %}
+
+<p>
+  This was another of the bagged 109's that I bought a number of years ago.  (I'm getting down to the bottom of the
+  barrel.  I bought seventeen, and I think I have two or three left.)  I decided to do the scheme shown on the box art.
+</p>
+<p>
+	Most of the kit fit together well, but I had to use a little putty around the cowling.
+</p>
+<p>
+  The bottom was painted with my Tamiya mix for {{f.rlm('76')}}, namely {{f.txf('23:1')}} + {{f.txf('2:1')}}.  The top
+  is a combination of {{f.rlm('70')}} Black Green, {{f.rlm('02')}} Gray Green, and a light brown.  Hasegawa recommends
+  {{f.mrcolor('321')}} Brown for the light brown.  I didn't have any, and didn't want to buy it just for this subject,
+  so I used {{f.txf('59')}} Desert Yellow.  I thought it turned out well.  The {{f.rlm('70')}} is AMMO and the {{f.rlm('02')}}
+  is Model Air.  The {{f.rlm('04')}} under the cowling is AMMO Gold Yellow.
+  I masked everything, as the box art and the kit instructions show hard edges.
+</p>
+<p>
+  After applying a gloss coat of Quick Shine, I applied the kit decals.  They worked very well, although there is quite a bit
+  of silvering on the starboard chevron.
+  Another coat of Quick Shine
+  was followed by Micro Flat.
+  I used the Eduard mask (EX018) for the canopy.  This particular mask also includes masks for the 109F, which I have in the
+  stash.
+</p>
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}
+{% endblock %}
