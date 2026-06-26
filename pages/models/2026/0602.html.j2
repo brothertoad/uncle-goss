@@ -1,0 +1,33 @@
+---
+kit: TAM61063
+---
+{% extends "layouts/build.html.j2" %}
+{% block buildblock %}
+{% import "layouts/macros.html.j2" as m %}
+{% import "layouts/filters.html.j2" as f %}
+
+<p>
+  This kit was a very recent purchase, and was intended as a test bed for Vallejo paints.  I have a number of
+  aftermarket decal sheets for the {{f.nowrap('E-4')}}, so find a subject wasn't difficult.  I went with a subject
+  from Cutting Edge CED48189 {{f.nowrap('Bf 109E')}} "Emils" Part 2.  I liked the look of the tiger stripes in lieu of
+  typical mottling.  As a bonus, I knew it would not be difficult to paint.
+</p>
+<p>
+	The kit went together without any problems.  I primed with Tamiya Grey Primer from the 40mL bottle, thinned with
+  {{f.nowrap('Mr. Leveling')}} Thinner.  I used Model Air for the {{f.rlm('65')}} on the bottom and {{f.rlm('02')}}
+  on the top.  I had intended to use Model Air for the {{f.rlm('71')}} as well, until I realized I didn't have any, so
+  I used AMMO 0233 instead.  I also used the AMMO for the tiger stripes.  The Model Air was easy to spray, but did chip
+  a little on the tail.  In addition some of the top colors leaked under the masking.  I was able to touch up with a brush,
+  and the colors matched very well.  This is not usually the case with Tamiya.
+</p>
+<p>
+  A gloss coat of Quick Shine was applied.  I used the kit decals for the insignia, and the Cutting Edge set for the
+  13 on the sides and the devil emblem on the cowling.  All the decals worked well.
+  Another coat of Quick Shine
+  was followed by AMMO Lucky Matt varnish.
+  I used the Eduard mask (EX130) for the canopy.
+</p>
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}
+{% endblock %}

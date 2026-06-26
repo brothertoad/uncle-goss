@@ -1,0 +1,39 @@
+---
+kit: TAM61090
+---
+{% extends "layouts/build.html.j2" %}
+{% block buildblock %}
+{% import "layouts/macros.html.j2" as m %}
+{% import "layouts/filters.html.j2" as f %}
+
+<p>
+  Yet another Tamiya P-47 build.  Having built several of these, I'm used to the construction and did not run into
+  any difficulties.  I did remember to sand the wing spars a bit to help them fit better.  I did have to putty the
+  gap between the area behind the cockpit (where the dorsal fin would go if there was one).
+</p>
+<p>
+	I decidedd to do a subject from Aeromaster 48-788 The Wolf Pack Part XI.  There are two razorbacks and one bubbletop
+  on the sheet.  The drawing on the decal instructions shows invasion stripes on the bottom of the fuselage, but the
+  instructions also mention that there is a photo of this plane taken in early 1945 without them.  Since I did not relish
+  the idea of painting the stripes - and relished the idea of using decals even less - I went without them.
+</p>
+<p>
+  I primed with {{f.nowrap('Mr. Surfacer')}} 1200.
+  The rudder was painted Tamiya {{f.txf('3')}} Flat Yellow, and the cowling ring was painted Model Color Flat Red, thinned with Quick Shine.
+  After masking the cowling, the bottom was painted with Nicpro Silver, an acrylic paint I bought off Amazon.
+  It was very thick, like artist
+  acrylics from a tube.  I tried thinning it with Quick Shine and a bit of Testor's Universal Acrylic Thinner.  Unfortunately, the
+  results were terrible - it was very rough.  I almost tossed the kit at that point, but I decided to give the bottom a light
+  sanding and then try something else.  The something else was Polly Scale Flat Aluminum, which, although not exactly good, was acceptable.
+  The bottom was masked and the top was painted with AMMO 0246 Medium Sea Grey and AMMO 0206 {{f.rlm('81')}} - FS34079 - BS041.
+</p>
+<p>
+  The gloss coat was Quick Shine.  The stencils on the prop blades were from the kit; all other decals were from the Aermoaster sheet.
+  I used the wrong insignia on the fuselage - the one I used was intended for the razorbacks.
+  Another coat of Quick Shine was followed by AMMO Lucky Matt varnish.
+  I used the Montex mask (SM 48027) as a template and cut out masks for the windscreen and side windows.  I masked the main canopy by hand.
+</p>
+{{ m.buildPhotoLink(path, 1) }}
+{{ m.buildPhotoLink(path, 2) }}
+{{ m.buildPhotoLink(path, 3) }}
+{% endblock %}
